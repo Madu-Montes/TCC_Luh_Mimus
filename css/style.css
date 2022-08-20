@@ -160,22 +160,6 @@ img {
      outline: 0;
 }
 
-.btn-custom {
-     margin-top: 20px;
-     background-color: transparent !important;
-     border: 2px solid #ddd;
-     padding: 12px 40px;
-     font-size: 16px;
-}
-
-.lead {
-     font-size: 18px;
-     line-height: 30px;
-     color: #767676;
-     margin: 0;
-     padding: 0;
-}
-
 .form-control:focus {
      border-color: #ffffff !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
@@ -245,12 +229,13 @@ button {
 
 /*-- header area --*/
 
+/*onde engloba parte superior e menu*/
 .header {
      width: 100%;
      background: #fff;
 }
 
-
+/* onde há a logo*/ 
 .header_midil {
      padding: 22px 0;
      
@@ -285,6 +270,7 @@ ul.right_icon li img {
      margin-right: 30px;
 }
 
+/*botão de peça no app*/
 .order {
      padding-top: 2px;
      float: right;
@@ -306,7 +292,7 @@ ul.right_icon li img {
 
 /*--   navigation--*/
 
-.header_bottom {
+.menu {
      background-color: #ECE6DE;
 }
 
@@ -379,60 +365,6 @@ ul.right_icon li img {
     
      
 }
-
-.blodark {
-     color: #183661;
-     font-family: 'Righteous', cursive;
-     font-size: 85px;
-}
-
-.text-bg {
-     text-align: left;
-}
-
-.ban_img {
-margin-right: -45px;
-position: absolute;
-}
-
-.text-bg h1 {
-     color: #f2c119;
-     font-size: 116px;
-     line-height: 120px;
-     padding-bottom: 50px;
-     font-weight: 400;
-}
-
-.text-bg p {
-     color: #2a2a2c;
-     line-height: 30px;
-     font-size: 33px;
-     margin-bottom: 50px;
-}
-
-.text-bg .read_more {
-     font-weight: 500;
-     background: #1d37fd;
-     color: #fff !important;
-     border-radius: 43px;
-     margin-right: 25px;
-     padding: 13px 0;
-     max-width: 210px;
-}
-
-.text-bg .read_more:hover {
-     background: #fcc10e;
-     color: #000 !important;
-}
-
-.ban_img figure {
-     margin: 0;
-}
-
-.ban_img figure img {
-     width: 100%;
-}
-
 
 /** end banner section **/
 
@@ -521,7 +453,7 @@ position: absolute;
 /** project section **/
 
 .project {
-     background: url(../images/product_bg.jpg);
+     background: url(../images/product_bg.jpg); /*ainda não entendi para que isso serve, mas mantem uma distancia entre a imagem*/
      background-size: 100% 100%;
      background-repeat: no-repeat;
      padding: 90px 0 90px 0;
@@ -546,88 +478,62 @@ position: absolute;
      color: #fff;
 }
 
-.project .titlepage2 {
-     text-align: left;
+
+.project .destaques{
+     text-align: center;
+
 }
 
-.project .titlepage2 h2 {
+.project .destaques h2 {
      color: #3F2014;
      margin-bottom: 40px;
      padding-bottom: 10px;
+     border-bottom: solid 2px;
 }
 
-.project .titlepage2 h2 {
-     font-size: 30px;
+.project .destaques p {
+     font-size: 17px;
      line-height: 30px;
      font-weight: 400;
      padding-top: 10px;
-     color: #3F2014;
+     color: #fff;
 }
 
-.project .titlepage2 img {
-     text-align: center;  /*centralizar a lilustação em cima do texto*/
-     width: 90px;
 
-}
 
-.bolo-escolher img {
-     width: 45%;
+.motivos{
+     width: 100%;
      display: inline-block;
-     float: right;
-}
-
-.bolo-escolher h3 {
-     color: #3F2014;
-     width: 45%;
-     height: 50%;
-     text-align: center;
      
 }
 
-
-.sabores-itens {
-     background-color: #ECE6DE;
-     width: 100%;
-display:flex; flex-wrap: wrap; justify-content: center;
-}
-.project .project_box {
-text-align: center;
-max-width: 17.3%;
-margin: 0 15px 20px 15px;
+#container-a{
+     width: 45%;
 }
 
-.bolos {
-     margin-top: 15px;
-     background: #f2f2f2;
-     height: 257px;
-     display: flex;
-     flex-wrap: wrap;
+#container-a img{
+     text-align: center;
      align-items: center;
-     justify-content: center;
 }
 
-.project .project_box h3 {
-     color: #1c1c1b;
+#container-a h3{
+     font-size: 30px;
+     color: #3F2014;
+     text-align: center;
+}
+#container-a h4{
      font-size: 15px;
-     line-height: 20px;
-     padding: 22px 0px 0px 0px;
-     text-align: left;
+     color: #3F2014;
+     text-align: center;
 }
 
-.project .read_more {
-     margin-top: 50px !important;
-     margin: 0 auto;
-     display: block;
-     text-transform: none;
-     color: #fff;
-     background: #183661;
-     padding: 10px 0;
+#container-b{
+     background-color: pink;
+     text-align: right;
+     
+     
+     
 }
-
-.project .read_more:hover {
-     background-color: #f2c119;
-}
-
 
 /** end project section **/
 
