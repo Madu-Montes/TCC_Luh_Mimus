@@ -528,13 +528,14 @@ position: absolute;
 }
 
 .project .titlepage {
-     text-align: left;
+     text-align: center;
 }
 
 .project .titlepage h2 {
+     color: #3F2014;
      margin-bottom: 40px;
      padding-bottom: 10px;
-     border-bottom: #f2c119 solid 5px;
+     border-bottom: solid 2px;
 }
 
 .project .titlepage p {
