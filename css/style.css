@@ -545,14 +545,59 @@ position: absolute;
      padding-top: 10px;
      color: #fff;
 }
-.product_main {display:flex; flex-wrap: wrap; justify-content: center;}
-.project .project_box {
+
+.project .titlepage2 {
+     text-align: left;
+}
+
+.project .titlepage2 h2 {
+     color: #3F2014;
+     margin-bottom: 40px;
+     padding-bottom: 10px;
+}
+
+.project .titlepage2 h2 {
+     font-size: 30px;
+     line-height: 30px;
+     font-weight: 400;
+     padding-top: 10px;
+     color: #3F2014;
+}
+
+.project .titlepage2 img {
+     text-align: center;  /*centralizar a lilustação em cima do texto*/
+     width: 90px;
+
+}
+
+.bolo-escolher img {
+     width: 45%;
+     display: inline-block;
+     float: right;
+}
+
+.bolo-escolher h3 {
+     color: #3F2014;
+     width: 45%;
+     height: 50%;
      text-align: center;
+     
+}
+
+
+.sabores-itens {
+     background-color: #ECE6DE;
+     width: 100%;
+display:flex; flex-wrap: wrap; justify-content: center;
+}
+.project .project_box {
+text-align: center;
 max-width: 17.3%;
 margin: 0 15px 20px 15px;
 }
 
-.dark_white_bg {
+.bolos {
+     margin-top: 15px;
      background: #f2f2f2;
      height: 257px;
      display: flex;
@@ -586,15 +631,6 @@ margin: 0 15px 20px 15px;
 
 /** end project section **/
 
-
-/** fashion section **/
-
-.fashion img {
-     width: 100%;
-}
-
-
-/** end fashion section **/
 
 
 /** news section **/
