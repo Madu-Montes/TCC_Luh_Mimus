@@ -246,28 +246,9 @@ button {
      display: block;
 }
 
-ul.conta_icon li a i {
-     padding-right: 5px;
-}
-
-ul.conta_icon li a {
-     color: #3F2014;
-     font-size: 17px;
-}
-
 ul.conta_icon li a:hover {
      color: #FACBA4;
      text-decoration: none;
-}
-
-ul.right_icon {
-     display: flex;
-     justify-content: flex-end;
-     flex-wrap: wrap;
-}
-
-ul.right_icon li img {
-     margin-right: 30px;
 }
 
 /*botão de peça no app*/
@@ -326,12 +307,13 @@ ul.right_icon li img {
      padding-right: 10px;
 }
 
-.search {
+/*barra de pesquisa*/
+.barra-pesquisa {
      padding: 24px 0;
      text-align: right;
 }
 
-.form_sea {
+.form_pesquisa {
      border-radius: 20px;
      border: #fff solid 1px;
      padding: 0px 15px;
@@ -341,7 +323,7 @@ ul.right_icon li img {
      width: 100%;
 }
 
-.seach_icon {
+.pesquisa_icon {
      position: absolute;
      margin-left: -25px;
      z-index: 999;
@@ -350,35 +332,14 @@ ul.right_icon li img {
      color: #b7b7b7;
 }
 
-
-/*-- marker-end sidebar  navigation--*/
-
-
-/** banner section **/
-
-
-    
-   
-
-
-.banner_main {
-    
-     
+/*banner section*/
+.banner_main {    
 }
 
-/** end banner section **/
 
-.titlepage h2 {
-     font-size: 35px;
-     color: #141414;
-     line-height: 40px;
-     font-weight: bold;
-     padding: 0;
-}
+/*titulos principais*/
 
-.titlepage h2 img {
-     padding-right: 10px;
-}
+
 
 .d_flex {
      display: flex;
@@ -452,87 +413,66 @@ ul.right_icon li img {
 
 /** project section **/
 
-.project {
-     background: url(../images/product_bg.jpg); /*ainda não entendi para que isso serve, mas mantem uma distancia entre a imagem*/
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
-     padding: 90px 0 90px 0;
-}
 
-.project .titlepage {
+.project .sabores {
      text-align: center;
 }
 
-.project .titlepage h2 {
+.sabores h2 {
+     font-size: 35px;
      color: #3F2014;
+     line-height: 40px;
+     font-weight: bold;
+     padding: 0;
      margin-bottom: 40px;
      padding-bottom: 10px;
      border-bottom: solid 2px;
 }
 
-.project .titlepage p {
-     font-size: 17px;
-     line-height: 30px;
-     font-weight: 400;
-     padding-top: 10px;
-     color: #fff;
-}
-
-
-.project .destaques{
+.project .destaques {
      text-align: center;
-
 }
 
-.project .destaques h2 {
+.destaques h2 {
+     font-size: 35px;
      color: #3F2014;
+     line-height: 40px;
+     font-weight: bold;
+     padding: 0;
      margin-bottom: 40px;
      padding-bottom: 10px;
      border-bottom: solid 2px;
 }
 
-.project .destaques p {
-     font-size: 17px;
-     line-height: 30px;
-     font-weight: 400;
-     padding-top: 10px;
-     color: #fff;
-}
-
-
-
-.motivos{
-     width: 100%;
-     display: inline-block;
-     
-}
-
-#container-a{
-     width: 45%;
-}
-
-#container-a img{
+.project .motivos {
      text-align: center;
-     align-items: center;
 }
 
-#container-a h3{
-     font-size: 30px;
+.motivos h2 {
+     font-size: 35px;
      color: #3F2014;
-     text-align: center;
+     line-height: 40px;
+     font-weight: bold;
+     padding: 0;
+     margin-bottom: 40px;
+     padding-bottom: 10px;
+     border-bottom: solid 2px;
 }
-#container-a h4{
+
+.motivos h3 {
      font-size: 15px;
-     color: #3F2014;
+     color: #000000;
+     line-height: 40px;
+     padding: 0;
+     margin-bottom: 40px;
+     padding-bottom: 10px;
+     border-bottom: solid 2px;
      text-align: center;
+     justify-items: left;
 }
 
-#container-b{
-     background-color: pink;
-     text-align: right;
-     
-     
-     
+.motivos img {
+     align-items: center;
 }
 
 /** end project section **/
@@ -644,8 +584,12 @@ ul.right_icon li img {
 
 /** end newslatter section **/
 
-.three_box {
+/*tres caixas*/
+
+.caixa-destaques {
      margin-bottom: -80px;
+     background-color: #ECE6DE;
+     width: 100%;
 }
 
 .gift_box {
@@ -667,41 +611,43 @@ ul.right_icon li img {
      display: block;
 }
 
-
-/** three_box section **/
-
-
-/** end three_box section **/
+/*fim das tres caixas*/
 
 
 /** footer **/
 
 .footer {
-     background: #183661;
+     background: #FFF6EE;
      padding-top: 170px;
      text-align: center;
+     height: 25%;
 }
 
 .footer h3 {
-     color: #fff;
+     color: #000;
      font-size: 20px;
      line-height: 20px;
      text-transform: uppercase;
-     text-align: left;
+     text-align: center;
      padding-bottom: 20px;
      font-weight: 600;
 }
 
 .footer p {
-     color: #fff;
+     color: #000;
      font-size: 17px;
      line-height: 32px;
-     text-align: left;
+     text-align: center;
      padding-right: 31px;
      font-weight: 400;
      display: inline-block;
 }
 
+.footer img{
+     width: 100px;
+}
+
+/*footer -copyright*/
 .copyright {
      margin-top: 80px;
      padding-bottom: 20px;
@@ -712,8 +658,8 @@ ul.right_icon li img {
      color: #292929;
      font-size: 18px;
      line-height: 22px;
-     text-align: center;
-     padding-top: 25px;
+     text-align: left;
+     padding-top: 0%;
      font-weight: normal;
      padding-right: 0 !important;
 }
