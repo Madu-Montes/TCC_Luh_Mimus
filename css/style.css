@@ -160,6 +160,22 @@ img {
      outline: 0;
 }
 
+.btn-custom {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 16px;
+}
+
+.lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+
 .form-control:focus {
      border-color: #ffffff !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
@@ -229,16 +245,14 @@ button {
 
 /*-- header area --*/
 
-/*onde engloba parte superior e menu*/
 .header {
      width: 100%;
      background: #fff;
 }
 
-/* onde há a logo*/ 
+
 .header_midil {
      padding: 22px 0;
-     
 }
 
 .logo {
@@ -246,12 +260,30 @@ button {
      display: block;
 }
 
+ul.conta_icon li a i {
+     padding-right: 5px;
+}
+
+ul.conta_icon li a {
+     color: #3F2014;
+     font-size: 17px;
+}
+
 ul.conta_icon li a:hover {
      color: #FACBA4;
      text-decoration: none;
 }
 
-/*botão de peça no app*/
+ul.right_icon {
+     display: flex;
+     justify-content: flex-end;
+     flex-wrap: wrap;
+}
+
+ul.right_icon li img {
+     margin-right: 30px;
+}
+
 .order {
      padding-top: 2px;
      float: right;
@@ -273,7 +305,7 @@ ul.conta_icon li a:hover {
 
 /*--   navigation--*/
 
-.menu {
+.header_bottom {
      background-color: #ECE6DE;
 }
 
@@ -307,15 +339,14 @@ ul.conta_icon li a:hover {
      padding-right: 10px;
 }
 
-/*barra de pesquisa*/
-.barra-pesquisa {
+.search {
      padding: 24px 0;
      text-align: right;
 }
 
-.form_pesquisa {
+.form_sea {
      border-radius: 20px;
-     border: #FACBA4 solid 1px;
+     border: #fff solid 1px;
      padding: 0px 15px;
      color: #000;
      height: 32px;
@@ -323,23 +354,90 @@ ul.conta_icon li a:hover {
      width: 100%;
 }
 
-.pesquisa_icon {
+.seach_icon {
      position: absolute;
      margin-left: -25px;
      z-index: 999;
      background: transparent;
      padding: 3px 0px 0px 0px;
-     color: #000000;
-}
-
-/*banner section*/
-.banner_main {    
+     color: #b7b7b7;
 }
 
 
-/*titulos principais*/
+/*-- marker-end sidebar  navigation--*/
 
 
+/** banner section **/
+
+
+    
+   
+
+
+.banner_main {
+    
+     
+}
+
+.blodark {
+     color: #183661;
+     font-family: 'Righteous', cursive;
+     font-size: 85px;
+}
+
+.text-bg {
+     text-align: left;
+}
+
+.ban_img {
+margin-right: -45px;
+position: absolute;
+}
+
+.text-bg h1 {
+     color: #f2c119;
+     font-size: 116px;
+     line-height: 120px;
+     padding-bottom: 50px;
+     font-weight: 400;
+}
+
+.text-bg p {
+     color: #2a2a2c;
+     line-height: 30px;
+     font-size: 33px;
+     margin-bottom: 50px;
+}
+
+.text-bg .read_more {
+     font-weight: 500;
+     background: #1d37fd;
+     color: #fff !important;
+     border-radius: 43px;
+     margin-right: 25px;
+     padding: 13px 0;
+     max-width: 210px;
+}
+
+.text-bg .read_more:hover {
+     background: #fcc10e;
+     color: #000 !important;
+}
+
+.ban_img figure {
+     margin: 0;
+}
+
+.ban_img figure img {
+     width: 100%;
+}
+
+
+/** end banner section **/
+
+.titlepage h2 img {
+     padding-right: 10px;
+}
 
 .d_flex {
      display: flex;
@@ -413,70 +511,211 @@ ul.conta_icon li a:hover {
 
 /** project section **/
 
+.project {
+     background-size: 100% 100%;
+     padding: 20px 0 20px 0;
+ 
+}
+
+/*inicio seção sabores*/
+.sabores-boxes{
+     background-color:#ECE6DE;
+     width: 100%;
+     display: inline-block;
+     align-items: center;
+}
+
+.sab_box {
+     background-color: #fff;
+     box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
+     text-align: center;
+     border-radius: 20px;
+     width: 100%;
+     height: 300px;
+}
+
+.sab_box i {
+     display: block;
+}
+
+.sab_box span {
+     color: #000000;
+     font-size: 17px;
+     padding-top: 5px;
+     display: block;
+}
 
 .project .sabores {
      text-align: center;
 }
 
+
 .sabores h2 {
      font-size: 35px;
+     color: #141414;
+     line-height: 100px;
+     font-weight: bold;
+     padding: 0;
+}
+
+
+.project .sabores h2 {
+     font-size: 30px;
      color: #3F2014;
      line-height: 40px;
      font-weight: bold;
-     padding: 0;
-     margin-bottom: 40px;
-     padding-bottom: 10px;
-     border-bottom: solid 2px;
+     
+}
+/*fim da seção sabores*/
+
+/*inicio da seção destaques*/
+.destaques-boxes{
+     background-color:#FACBA4;
+     width: 100%;
+     display: inline-block;
+     align-items: center;
+}
+
+.sab_box {
+     background-color: #fff;
+     box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
+     text-align: center;
+     border-radius: 20px;
+     width: 100%;
+     height: 300px;
+}
+
+.sab_box i {
+     display: block;
+}
+
+.sab_box span {
+     color: #000000;
+     font-size: 17px;
+     padding-top: 5px;
+     display: block;
 }
 
 .project .destaques {
      text-align: center;
 }
 
+
 .destaques h2 {
      font-size: 35px;
+     color: #141414;
+     line-height: 100px;
+     font-weight: bold;
+     padding: 0;
+}
+
+
+.project .destaques h2 {
+     font-size: 30px;
      color: #3F2014;
      line-height: 40px;
      font-weight: bold;
-     padding: 0;
-     margin-bottom: 40px;
-     padding-bottom: 10px;
-     border-bottom: solid 2px;
+     
+}
+/*fim da seção destaques*/
+
+.escolha-boxes{
+     background-color:#03cafc;
+     width: 100%;
+     display: flex;
 }
 
-.project .motivos {
+.sab_box {
+     background-color: #fff;
+     box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
      text-align: center;
+     border-radius: 20px;
+     width: 100%;
+     height: 300px;
 }
 
-.motivos h2 {
-     font-size: 35px;
-     color: #3F2014;
-     line-height: 40px;
-     font-weight: bold;
-     padding: 0;
-     margin-bottom: 40px;
-     padding-bottom: 10px;
-     border-bottom: solid 2px;
+.sab_box i {
+     display: block;
 }
 
-.motivos h3 {
-     font-size: 15px;
+.sab_box span {
      color: #000000;
-     line-height: 40px;
-     padding: 0;
-     margin-bottom: 40px;
-     padding-bottom: 10px;
-     border-bottom: solid 2px;
-     text-align: center;
-     justify-items: left;
+     font-size: 17px;
+     padding-top: 5px;
+     display: block;
 }
 
-.motivos img {
-     align-items: center;
+.project .escolhas {
+     text-align: left;
 }
+
+
+.escolhas h2 {
+     font-size: 35px;
+     color: #141414;
+     line-height: 100px;
+     font-weight: bold;
+     padding: 0;
+}
+
+.escolha-boxes h3{
+     text-align: center;
+}
+
+
+.project .escolhas h2 {
+     font-size: 30px;
+     color: #3F2014;
+     line-height: 40px;
+     font-weight: bold;  
+}
+
+
+
+
+.product_main {
+display:flex; flex-wrap: wrap; justify-content: center;
+}
+
+.project .project_box {
+text-align: center;
+max-width: 17.3%;
+margin: 0 15px 20px 15px;
+}
+
+.dark_white_bg {
+     background: #f2f2f2;
+     height: 257px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+}
+
+.project .project_box h3 {
+     color: #1c1c1b;
+     font-size: 15px;
+     line-height: 20px;
+     padding: 22px 0px 0px 0px;
+     text-align: left;
+}
+
+.project .read_more {
+     margin-top: 50px !important;
+     margin: 0 auto;
+     display: block;
+     text-transform: none;
+     color: #fff;
+     background: #183661;
+     padding: 10px 0;
+}
+
+.project .read_more:hover {
+     background-color: #f2c119;
+}
+
 
 /** end project section **/
-
 
 
 /** news section **/
@@ -582,14 +821,11 @@ ul.conta_icon li a:hover {
 }
 
 
+
 /** end newslatter section **/
 
-/*tres caixas*/
-
-.caixa-destaques {
+.three_box {
      margin-bottom: -80px;
-     background-color: #ECE6DE;
-     width: 100%;
 }
 
 .gift_box {
@@ -611,11 +847,25 @@ ul.conta_icon li a:hover {
      display: block;
 }
 
-/*fim das tres caixas*/
+
+/** three_box section **/
+
+
+/** end three_box section **/
 
 
 /** footer **/
 
+
+
+/** end footer **/
+
+
+/** inner page css **/
+
+.footer_to90 .footer {
+     padding-top: 90px;
+}
 .footer {
      background: #FFF6EE;
      padding-top: 170px;
@@ -647,7 +897,7 @@ ul.conta_icon li a:hover {
      width: 100px;
 }
 
-/*footer -copyright*/
+/*footer -copyright/
 .copyright {
      margin-top: 80px;
      padding-bottom: 20px;
@@ -671,17 +921,6 @@ ul.conta_icon li a:hover {
 .copyright a:hover {
      color: #f9bf16;
 }
-
-
-/** end footer **/
-
-
-/** inner page css **/
-
-.footer_to90 .footer {
-     padding-top: 90px;
-}
-
 .blue_bg {
      background-color: #f3a20d;
      padding: 35px 0;
