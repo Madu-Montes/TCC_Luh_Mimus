@@ -670,6 +670,7 @@ position: absolute;
      font-weight: bold;  
 }
 
+/*fim da seção escolhas*/
 
 
 
@@ -870,7 +871,6 @@ margin: 0 15px 20px 15px;
      background: #FFF6EE;
      padding-top: 170px;
      text-align: center;
-     height: 25%;
 }
 
 .footer h3 {
@@ -897,11 +897,13 @@ margin: 0 15px 20px 15px;
      width: 100px;
 }
 
-/*footer -copyright/
+/*footer -copyright*/
+
 .copyright {
      margin-top: 80px;
      padding-bottom: 20px;
      background: #FFF6EE;
+     text-align: left;
 }
 
 .copyright p {
@@ -921,6 +923,7 @@ margin: 0 15px 20px 15px;
 .copyright a:hover {
      color: #f9bf16;
 }
+
 .blue_bg {
      background-color: #f3a20d;
      padding: 35px 0;
