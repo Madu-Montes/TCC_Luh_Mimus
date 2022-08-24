@@ -897,6 +897,8 @@ margin: 0 15px 20px 15px;
      width: 100px;
 }
 
+
+
 /*footer -copyright*/
 
 .copyright {
@@ -932,6 +934,7 @@ margin: 0 15px 20px 15px;
 .blue_bg .titlepage {
      text-align: center;
 }
+
 
 
 /** about page **/
@@ -1069,7 +1072,18 @@ margin: 0 15px 20px 15px;
      opacity: 1;
 }
 
+#logorodape{
 
+     width: 200px;
+}
 
 /** end contact section **/
 
+#link-topo{
+
+
+     padding: 10px;
+    position: fixed;
+     right: 10px;
+     bottom: 40px;
+}
