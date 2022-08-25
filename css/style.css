@@ -525,22 +525,15 @@ position: absolute;
 
 .sabores h2 {
      font-size: 35px;
-     color: #141414;
+     color: #3F2014;
      line-height: 100px;
      font-weight: bold;
      padding: 0;
      margin-bottom: 15px;
 }
 
-.project .sabores h2 {
-     font-size: 30px;
-     color: #3F2014;
-     line-height: 40px;
-     font-weight: bold;  
-}
-
 .sabores-boxes{
-     background-color:#ECE6DE;
+     background-color:#FACBA4;
      height: 85%;
      width: 100%;
      display: flex;
@@ -589,25 +582,32 @@ position: absolute;
 }
 
 .destaques h2 {
-     background-color: #03cafc;
      font-size: 35px;
-     color: #141414;
+     color: #3F2014;
      line-height: 100px;
      font-weight: bold;
      padding: 0;
      margin-bottom: 15px;
+     text-align: center;
 }
 
-.project .destaques h2 {
-     font-size: 30px;
+.destaques h3{
+     text-align: center;
      color: #3F2014;
-     line-height: 40px;
-     font-weight: bold;  
+     font-weight: bold;
+     font-size: 23px;
+     margin-top: 10px;
+}
+
+.destaques h4{
+     font-size: 18px;
+     text-align: center;
+     margin-top: 10px;
 }
 
 .destaques-boxes{
-     background-color:#ECE6DE;
-     height: 85%;
+     background-color:#FACBA4;
+     height: 95%;
      width: 100%;
      display: flex;
      align-items: center;
@@ -615,11 +615,12 @@ position: absolute;
 
 
 .destaques .dest_box{
-     background-color: rgb(255, 255, 255);
+     background-color: #ECE6DE;
      box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
      margin-top: 20px;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
      height: 95%;
+     border-radius: 20px;
 }
 
 .dest_box img{
@@ -628,6 +629,12 @@ position: absolute;
      background-position: center;
      width: 100%;
      height: 100%;
+}
+
+.dest_box .avaliar{
+     padding: 20px;
+     width: 40%;
+     align-items: left;
 }
 
 .dest_box i {
