@@ -547,6 +547,7 @@ position: absolute;
      margin-top: 20px;
      margin-bottom: 30px;
      height: 95%;
+     border-radius: 20px;
 }
 
 .sab_box img{
@@ -621,6 +622,7 @@ position: absolute;
      margin-top: 20px;
      margin-bottom: 20px;
      height: 95%;
+     border-radius: 20px;
 }
 
 .dest_box img{
