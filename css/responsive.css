@@ -165,7 +165,7 @@
         padding-top: 2px !important;
     }
     .navigation .navbar-collapse {
-        background: #183661;
+        background: #FFE2CB;
         padding: 20px;
         margin-top: 24px;
         position: absolute;
@@ -175,18 +175,18 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: #fff;
+        color: black;
     }
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
-        color: #f2c119;
+        color:  #FACBA4;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-nav .active>.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color: #f2c119;
+        color:  #FACBA4;;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-toggler {
@@ -207,19 +207,19 @@
         display: none !important;
     }
     .logo {
-        float: left;
+        float: center;
         border: inherit;
         margin-top: 0px !important;
     }
     .banner_main {
-        padding: 99px 0px 0px 0px;
+        padding: 0px;
         min-height: 547px;
     }
     .text-bg h1 {
         font-size: 50px;
         padding-bottom: 20px;
         line-height: 66px;
-        px;
+    
     }
     .text-bg p {
         line-height: 30px;
@@ -273,7 +273,7 @@
         margin-top: -68px;
     }
     .navigation .navbar-collapse {
-        background: #183661;
+        background: #FFE2CB;
         padding: 20px;
         margin-top: 68px;
         position: absolute;
@@ -283,18 +283,18 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: #fff;
+        color: black;
     }
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
-        color: #f2c119;
+        color:  #FACBA6;;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-nav .active>.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color: #f2c119;
+        color:  #FACBA4;;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-toggler {
@@ -303,9 +303,9 @@
         border: inherit;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon1.png);
+        background: url(../images/menu-burguerv1.png);
         background-repeat: no-repeat;
-        width: 64px;
+        width: 50px;
         height: 44px;
     }
 }
