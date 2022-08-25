@@ -611,6 +611,7 @@ position: absolute;
      width: 100%;
      display: flex;
      align-items: center;
+     margin-bottom: 30px;
 }
 
 
@@ -620,7 +621,6 @@ position: absolute;
      margin-top: 20px;
      margin-bottom: 20px;
      height: 95%;
-     border-radius: 20px;
 }
 
 .dest_box img{
@@ -654,56 +654,45 @@ position: absolute;
 
 /*fim da seção destaques*/
 
-.escolha-boxes{
-     background-color:#03cafc;
-     width: 100%;
+/*inicio da seção escolha*/
+
+.project .escolhas {
+     text-align: center;
      display: flex;
 }
 
-.sab_box {
-     background-color: #fff;
-     box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
+.escolhas .esc-text{
+     background-color: yellow;
      text-align: center;
-     border-radius: 20px;
      width: 100%;
-     height: 300px;
+     height: 100%;
 }
 
-.sab_box i {
-     display: block;
-}
-
-.sab_box span {
-     color: #000000;
-     font-size: 17px;
-     padding-top: 5px;
-     display: block;
-}
-
-.project .escolhas {
-     text-align: left;
-}
-
-
-.escolhas h2 {
-     font-size: 35px;
-     color: #141414;
-     line-height: 100px;
-     font-weight: bold;
-     padding: 0;
-}
-
-.escolha-boxes h3{
+.escolhas h2{
      text-align: center;
-}
-
-
-.project .escolhas h2 {
-     font-size: 30px;
      color: #3F2014;
-     line-height: 40px;
-     font-weight: bold;  
+     font-weight: bold;
+     font-size: 23px;
+     margin-top: 10px;
 }
+
+.escolhas .esc-img{
+     background-color: red;
+     width: 100%;
+     height: 100%;
+}
+
+.escolhas .motivos-img{
+     background-color: forestgreen;
+}
+
+.escolhas .motivos-text h4{
+     background-color: rebeccapurple;
+     color: #3F2014;
+     font-weight: bold;
+
+}
+
 
 /*fim da seção escolhas*/
 
@@ -932,10 +921,7 @@ margin: 0 15px 20px 15px;
      width: 100px;
 }
 
-#logorodape{
-     width: 40px;
-     
-}
+
 
 /*footer -copyright*/
 
