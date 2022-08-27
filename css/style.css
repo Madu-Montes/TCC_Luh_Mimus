@@ -703,6 +703,11 @@ position: absolute;
      font-weight: bold;
 }
 
+.escolhas .esc-img img{
+     padding-top: 20px;
+     width: 80%;
+     height: 90%
+}
 
 
 
