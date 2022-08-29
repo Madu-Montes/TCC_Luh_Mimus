@@ -687,11 +687,10 @@ position: absolute;
 }
 
 .escolhas .esc-icons{
-     background-color: #03cafc;
+     
 }
 
 .escolhas .esc-text{
-     background-color: blueviolet;
      height: 100%;
      padding-inline: 0px;
 }
@@ -947,7 +946,6 @@ margin: 0 15px 20px 15px;
      margin-top: 80px;
      padding-bottom: 20px;
      background: #FFF6EE;
-     text-align: left;
 }
 
 .copyright p {
@@ -965,7 +963,7 @@ margin: 0 15px 20px 15px;
 }
 
 .copyright a:hover {
-     color: #f9bf16;
+     color: #FACBA4;
 }
 
 .blue_bg {

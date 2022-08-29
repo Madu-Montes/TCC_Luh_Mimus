@@ -186,7 +186,7 @@
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color:  #FACBA4;;
+        color:  #FACBA4;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-toggler {
@@ -214,6 +214,7 @@
     .banner_main {
         padding: 0px;
         min-height: 547px;
+        margin-bottom: -320px;
     }
     .text-bg h1 {
         font-size: 50px;
@@ -287,14 +288,14 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
-        color:  #FACBA6;;
+        color:  burlywood;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-nav .active>.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color:  #FACBA4;;
+        color:  burlywood;
         background-color: inherit;
     }
     .navigation.navbar-dark .navbar-toggler {
@@ -307,6 +308,6 @@
         background-repeat: no-repeat;
         width: 50px;
         height: 44px;
+        margin-top: -50px;
     }
 }
-
