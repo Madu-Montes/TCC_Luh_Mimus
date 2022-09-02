@@ -31,8 +31,11 @@
 
 /*O que engloba tudo*/
 .main-layout{
-    width: 100%;
-    height: 100%;
+     height: 100%;
+     width: 100%;
+    overflow-x: hidden
+    
+    
 }
 /*O que engloba tudo*/
 
@@ -51,6 +54,8 @@ body {
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     height: 100%;
+ overflow-x: hidden
 }
 
 a {
@@ -307,7 +312,8 @@ ul.right_icon li img {
 }
 
 .order:hover {
-     background-color: #FACBA4;
+     background-color: #FFE2CB;
+     
 }
 
 
@@ -315,6 +321,8 @@ ul.right_icon li img {
 
 .header-menu {
      background-color: #FFE2CB;
+     height: 100%;
+     width: 100%;
 }
 
 .navigation.navbar {
@@ -377,10 +385,6 @@ ul.right_icon li img {
 
 /** banner section **/
 
-.banner_main {
-    
-     
-}
 
 /** end banner section **/
 
@@ -403,24 +407,26 @@ ul.right_icon li img {
 
 /*inicio seção sabores*/
 .sabores{
-     justify-items: center;
-     margin-bottom: 30px;
+  align-items: center;
+     margin-top: 10px;
+
 }
 
 .sabores h2 {
-     font-size: 35px;
+     font-size: 34px;
      color: #3F2014;
      line-height: 100px;
      font-weight: bold;
-     padding: 0;
+    
+     text-align: center;
      margin-bottom: 15px;
 }
 
 .sabores-boxes{
-     background-color:#FACBA4;
-     height: 85%;
+     background-color: #ffe4cf;
+
      width: 100%;
-     display: flex;
+    
      align-items: center;
 }
 
@@ -428,8 +434,8 @@ ul.right_icon li img {
 .sabores .sab_box{
      background-color: rgb(255, 255, 255);
      box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
-     margin-top: 20px;
-     margin-bottom: 30px;
+     margin-top: 15px;
+   margin-bottom: 20px;
      height: 95%;
      border-radius: 20px;
 }
@@ -438,6 +444,7 @@ ul.right_icon li img {
      max-width: 100%;
      max-height: 100%;
      background-position: center;
+     margin-top: 20px;
      width: 100%;
      height: 100%;
 }
@@ -463,6 +470,7 @@ ul.right_icon li img {
 
 .destaques{
      justify-items: center;
+     margin-top: 20px;
      margin-bottom: 30px;
 }
 
@@ -491,7 +499,7 @@ ul.right_icon li img {
 }
 
 .destaques-boxes{
-     background-color:#FACBA4;
+     background-color:ff;
      height: 95%;
      width: 100%;
      display: flex;
@@ -548,6 +556,10 @@ ul.right_icon li img {
      width: 100%;
      text-align: center;
      display: flex;
+    align-items: center;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     padding-left: 20;
 }
 
 .escolhas .escolha-text{
@@ -559,20 +571,38 @@ ul.right_icon li img {
      text-align: center;
      color: #3F2014;
      font-weight: bold;
-     font-size: 23px;
+     font-size: 30px;
      margin-top: 10px;
 }
+
+.escolhas h4{
+     text-align: center;
+     color: #3F2014;
+     font-weight: bold;
+     margin-top: 10px;
+     
+
+}
+
+
 
 .escolhas p{
      text-align: center;
      color: #3F2014;
-     font-size: 14px;
+     font-size: 16px;
      margin-top: 10px;
 }
 
 .escolhas .esc-text{
      height: 100%;
      padding-inline: 0px;
+}
+
+.escolhas .esc-icons{
+  
+    text-align: center;
+
+    align-items: center;
 }
 
 
@@ -598,7 +628,7 @@ ul.right_icon li img {
 
 /** inner page css **/
 .footer {
-     background: #FFF6EE;
+     background-color: #ECE6DE;
      padding-top: 170px;
      text-align: center;
 }
@@ -634,7 +664,8 @@ ul.right_icon li img {
 .copyright {
      margin-top: 80px;
      padding-bottom: 20px;
-     background: #FFF6EE;
+     background-color: #ECE6DE;
+     
 }
 
 .copyright p {
