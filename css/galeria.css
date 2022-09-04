@@ -173,27 +173,6 @@ img {
      outline: 0;
 }
 
-.btn-custom {
-     margin-top: 20px;
-     background-color: transparent !important;
-     border: 2px solid #ddd;
-     padding: 12px 40px;
-     font-size: 16px;
-}
-
-.lead {
-     font-size: 18px;
-     line-height: 30px;
-     color: #767676;
-     margin: 0;
-     padding: 0;
-}
-
-.form-control:focus {
-     border-color: #ffffff !important;
-     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
-}
-
 .navbar-form input {
      border: none !important;
 }
@@ -359,13 +338,7 @@ ul.right_icon li img {
 }
 
 
-/*-- marker-end sidebar  navigation--*/
 
-
-/** banner section **/
-
-
-/** end banner section **/
 
 /*relacionado ao menu topo*/
 .d_flex {
@@ -375,7 +348,32 @@ ul.right_icon li img {
 }
 /*relacionado ao menu topo*/
 
+/*imagem do topo*/
+.topo-galeria i img{
+     background-color: aqua;
+     width: 100%;
+     
+}
 
+.topo-galeria{
+       width: 100%;
+       background-color: #666666;
+       text-align: center;
+       position: relative;
+          
+}
+
+.topo-galeria h1{
+        font-size: 34px;
+        color: #ffffff;
+        line-height: 100px;
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;    
+}
 /** inner page css **/
 .footer {
      background-color: #ECE6DE;
