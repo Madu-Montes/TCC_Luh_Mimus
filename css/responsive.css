@@ -104,35 +104,28 @@
     .banner_main {
         width: 100%;
     }
-    .sabores img {
-        width: 100px;
-        margin-bottom: 0px;
-    }
-    .sabores h2 {
-        font-size: 28px;
-    }
-    .sabores .sab_box {
-        margin-top: 15px;
-        margin-bottom: 20px;
-        height: 95%;
-        width: 60%;
-        border-radius: 20px;
-        align-items: center;
-    }
-    .sabores .sab_box i img {
-        width: 230px;
-        height: 350px;
-        justify-items: center;
-        border-radius: 20px;
-        align-items: center;
-    }
-    .destaques h2 {
-        font-size: 28px;
-    }
-    .escolhas img {
-        width: 100px;
-        margin-bottom: 0px;
-    }
+    .project .titulos-principais h2 {
+        font-size: 30px;
+        color: #3F2014;
+        line-height: 100px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+   }
+   .sabores .sab_box{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.sabores .sab_box{
+    width: 80%;
+}
+
     .escolhas h1 {
         font-size: 26px;
     }
@@ -140,8 +133,8 @@
         font-size: 14px;
     }
     .escolhas .esc-img {
-        height: 60%;
-        width: 110%;
+        height: 100%;
+        width: 100%;
     }
     .escolhas .esc-icons{
         text-align: center;
@@ -209,72 +202,13 @@
     }
 
     .banner_main {
-        padding: 0px;
-        min-height: 547px;
-        margin-bottom: -320px;
-    }
-
-    .text-bg h1 {
-        font-size: 50px;
-        padding-bottom: 20px;
-        line-height: 66px;
-
-    }
-
-    .text-bg p {
-        line-height: 30px;
-        font-size: 21px;
-    }
-
-    .project .project_box {
-        max-width: 100%;
-    }
-
-    .ban_img {
-        position: inherit;
-        margin-right: 0;
-    }
-
-    .six_box .six_probpx span {
-        font-size: 14px;
-    }
-
-    .titlepage h2 {
-        font-size: 25px;
-        line-height: 34px;
-    }
-
-    .news_text h3 {
-        font-size: 22px;
-        margin-top: 15px;
-    }
-
-    .footer h3 {
-        padding-top: 20px;
-        font-size: 22px;
-    }
-
-    .blodark {
-        font-size: 45px;
-    }
-
-    .about_text h3 {
-        font-size: 27px;
-    }
-
-    .news_form .letter_form {
         width: 100%;
     }
 
-    .news_form .sumbit {
-        float: left;
-        margin-top: 30px;
-        margin-left: 0px !important;
-    }
-
-    .neslatter {
-        padding-bottom: 0px;
-        margin-bottom: 20px;
+    
+    .footer h3 {
+        padding-top: 20px;
+        font-size: 22px;
     }
 
     .navigation.navbar {
