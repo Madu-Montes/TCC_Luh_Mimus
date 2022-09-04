@@ -33,62 +33,60 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    ul.conta_icon li a {
-        font-size: 15px;
-    }
-    .project .project_box {
-        max-width: 28.3%;
-    }
     .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 30px 8px;
+        padding: 23px 8px;
         font-size: 14px;
+    }
+    .header-menu{
+        height: 60px;
+    }
+    .form_sea{
+        margin-top: -30px;
     }
     .banner_main {
-        min-height: 459px;
+        width: 100%;
     }
-    .blodark {
-        font-size: 60px;
+    .sabores img{
+        width: 100px;
+        margin-bottom: 0px;
     }
-    .text-bg h1 {
-        font-size: 77px;
-        padding-bottom: 15px;
-        line-height: 80px;
+    .sabores h2 {
+        font-size: 30px;
     }
-    .text-bg p {
+    .sabores .sab_box{
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
+        margin-top: 15px;
+        margin-bottom: 20px;
+        height: 90%;
+        width: 80%;
+        border-radius: 20px;
+        align-items: center;
+   }
+    
+   }
+
+
+    .destaques img{
+        width: 100px;
+        margin-bottom: 0px;
+    }
+    .destaques h2 {
+        font-size: 30px;
+    }
+    .escolhas img{
+        width: 100px;
+        margin-bottom: 0px;
+    }
+    .escolhas h1 {
         font-size: 26px;
     }
-    .ban_img {
-        margin-right: -22px;
-    }
-    .six_box .six_probpx span {
-        font-size: 10px;
-    }
-    .project .project_box h3 {
+    .escolhas p{
         font-size: 14px;
     }
-    .news_text p {
-        font-size: 13px;
-        line-height: 21px;
-    }
-    .news_text h3 {
-        font-size: 17px;
-    }
-    .about_text h3 {
-        font-size: 19px;
-        margin-top: 0px;
-    }
-    .footer p {
-        padding-right: 0px;
-        font-size: 15px;
-        line-height: 24px;
-    }
-    .about_text p {
-        font-size: 16px;
-        line-height: 26px;
-        padding: 15px 0 25px 0;
-    }
-    .neslatter {
-        font-size: 20px !important;
+    .escolhas .esc-img{
+        height: 80%;
+        width: 100%;
     }
 }
 
