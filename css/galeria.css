@@ -363,17 +363,7 @@ ul.right_icon li img {
           
 }
 
-.topo-galeria h1{
-        font-size: 34px;
-        color: #ffffff;
-        line-height: 100px;
-        font-weight: bold;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        text-align: center;    
-}
+
 /** inner page css **/
 .footer {
      background-color: #ECE6DE;
