@@ -352,16 +352,11 @@ ul.right_icon li img {
 .topo-galeria i img{
      background-color: aqua;
      width: 100%;
+     text-align: center;
+     position: relative;
      
 }
 
-.topo-galeria{
-       width: 100%;
-       background-color: #666666;
-       text-align: center;
-       position: relative;
-          
-}
 
 
 /** inner page css **/
