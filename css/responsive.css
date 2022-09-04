@@ -28,9 +28,13 @@
         text-align: center;
         margin-bottom: 15px;
    }
-
     .escolhas h1 {
         font-size: 28px;
+    }
+
+    .escolhas .esc-img {
+        height: 80%;
+        width: 112%;
     }
 }
 
@@ -51,25 +55,24 @@
     .banner_main {
         width: 100%;
     }
+    .project .titulos-principais h2 {
+        font-size: 32px;
+        color: #3F2014;
+        line-height: 100px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+   }
     .sabores img {
         width: 100px;
         margin-bottom: 0px;
     }
-    .sabores h2 {
-        font-size: 30px;
-    }
+    
     .sabores .sab_box {
         height: 90%;
         width: 80%;
         border-radius: 20px;
         align-items: center;
-    }
-    .destaques img {
-        width: 100px;
-        margin-bottom: 0px;
-    }
-    .destaques h2 {
-        font-size: 30px;
     }
     .escolhas img {
         width: 100px;
