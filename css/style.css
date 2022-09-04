@@ -368,6 +368,7 @@ ul.right_icon li img {
      height: 32px;
      position: relative;
      width: 100%;
+     font-size: 13px;
 }
 
 .seach_icon {
@@ -411,31 +412,29 @@ ul.right_icon li img {
      margin-top: 10px;
 
 }
-
+.sabores img{
+     margin-bottom: 0px;
+}
 .sabores h2 {
      font-size: 34px;
      color: #3F2014;
      line-height: 100px;
      font-weight: bold;
-    
      text-align: center;
      margin-bottom: 15px;
 }
 
 .sabores-boxes{
      background-color: #ffe4cf;
-
      width: 100%;
-    
      align-items: center;
 }
-
 
 .sabores .sab_box{
      background-color: rgb(255, 255, 255);
      box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
      margin-top: 15px;
-   margin-bottom: 20px;
+     margin-bottom: 20px;
      height: 95%;
      border-radius: 20px;
 }
@@ -629,8 +628,9 @@ ul.right_icon li img {
 /** inner page css **/
 .footer {
      background-color: #ECE6DE;
-     padding-top: 170px;
+     padding-top: 80px;
      text-align: center;
+     height: 50%;
 }
 
 .footer h3 {

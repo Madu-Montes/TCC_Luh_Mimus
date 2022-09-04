@@ -6,43 +6,29 @@
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media (min-width: 1200px) and (max-width: 1342px) {
-    .six_box .six_probpx span {
-        font-size: 15px;
-    }
-    .ban_img {
-        margin-right: -30px;
-    }
+    /*nada para alterar aqui por enquanto*/
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 30px 15px;
+        font-size: 15px;
     }
+    .header_topo {
+        padding: px 0;
+        height: 145px;
+    }   
     .banner_main {
-        min-height: 566px;
+        min-height: 100%;
     }
-    .text-bg h1 {
-        font-size: 92px;
-        line-height: 108px;
+    .sabores h2 {
+        font-size: 32px;
     }
-    .blodark {
-        font-size: 70px;
+    .destaques h2 {
+        font-size: 32px;
     }
-    .ban_img {
-        margin-right: -15px;
-    }
-    .six_box .six_probpx span {
-        font-size: 13px;
-    }
-    .news_text h3 {
-        font-size: 20px;
-    }
-    .news_text p {
-        font-size: 16px;
-        line-height: 28px;
-    }
-    .about_text h3 {
-        font-size: 27px;
+    .escolhas h1 {
+        font-size: 28px;
     }
 }
 
