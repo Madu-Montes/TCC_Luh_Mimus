@@ -383,18 +383,11 @@ ul.right_icon li img {
      padding: 20px 0 20px 0;
  
 }
-
-/*inicio seção sabores*/
-.sabores{
-     align-items: center;
-      margin-top: 10px;
-      justify-items: center;
-
+.project .titulos-principais{
+     text-align: center;
 }
-.sabores img{
-     margin-bottom: 0px;
-}
-.sabores h2 {
+
+.project .titulos-principais h2 {
      font-size: 34px;
      color: #3F2014;
      line-height: 100px;
@@ -402,6 +395,30 @@ ul.right_icon li img {
      text-align: center;
      margin-bottom: 15px;
 }
+
+
+/*inicio seção sabores*/
+.sab-boxes{
+     align-items: center;
+     width: 100%;
+     background-color: #ECE6DE;
+
+}
+.sabores img{
+     margin-bottom: 0px;
+}
+
+.project i img {
+     background-color: rgb(255, 255, 255);
+     font-size: 34px;
+     color: #3F2014;
+     line-height: 100px;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 15px;
+}
+
+
 
 .sabores-boxes{
      background-color: #ffe4cf;
@@ -576,9 +593,7 @@ ul.right_icon li img {
 }
 
 .escolhas .esc-icons{
-  
     text-align: center;
-
     align-items: center;
 }
 

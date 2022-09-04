@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
 
 
@@ -15,132 +13,142 @@
         font-size: 15px;
     }
     .header_topo {
-        padding: px 0;
+        padding: 0px;
         height: 145px;
-    }   
+    }
+
     .banner_main {
         min-height: 100%;
     }
-    .sabores h2 {
+    .project .titulos-principais h2 {
         font-size: 32px;
-    }
-    .destaques h2 {
-        font-size: 32px;
-    }
+        color: #3F2014;
+        line-height: 100px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+   }
+
     .escolhas h1 {
         font-size: 28px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .d_none1 {
+        display: none !important;
+    }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 23px 8px;
         font-size: 14px;
     }
-    .header-menu{
+    .header-menu {
         height: 60px;
     }
-    .form_sea{
+    .form_sea {
         margin-top: -30px;
     }
     .banner_main {
         width: 100%;
     }
-    .sabores img{
+    .sabores img {
         width: 100px;
         margin-bottom: 0px;
     }
     .sabores h2 {
         font-size: 30px;
     }
-    .sabores .sab_box{
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
-        margin-top: 15px;
-        margin-bottom: 20px;
+    .sabores .sab_box {
         height: 90%;
         width: 80%;
         border-radius: 20px;
         align-items: center;
-   }
-    
-   }
-
-
-    .destaques img{
+    }
+    .destaques img {
         width: 100px;
         margin-bottom: 0px;
     }
     .destaques h2 {
         font-size: 30px;
     }
-    .escolhas img{
+    .escolhas img {
         width: 100px;
         margin-bottom: 0px;
     }
     .escolhas h1 {
         font-size: 26px;
     }
-    .escolhas p{
+    .escolhas p {
         font-size: 14px;
     }
-    .escolhas .esc-img{
-        height: 80%;
-        width: 100%;
+    .escolhas .esc-img {
+        height: 60%;
+        width: 110%;
     }
+    .escolhas .esc-icons{
+        text-align: center;
+        align-items: center;
+    }
+    
 }
+
 
 @media (min-width: 576px) and (max-width: 767px) {
     .d_none1 {
         display: none !important;
     }
+
     .banner_main {
-        min-height: 576px;
+        width: 100%;
     }
-    .blodark {
-        font-size: 70px;
+    .sabores img {
+        width: 100px;
+        margin-bottom: 0px;
     }
-    .text-bg p {
-        font-size: 30px;
+    .sabores h2 {
+        font-size: 28px;
     }
-    .text-bg h1 {
-        font-size: 85px;
-        line-height: 100px;
-        padding-bottom: 20px;
+    .sabores .sab_box {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        height: 95%;
+        width: 60%;
+        border-radius: 20px;
+        align-items: center;
     }
-    .ban_img {
-        position: inherit;
-        margin-right: 0;
+    .sabores .sab_box i img {
+        width: 230px;
+        height: 350px;
+        justify-items: center;
+        border-radius: 20px;
+        align-items: center;
     }
-    .six_box .six_probpx span {
+    .destaques h2 {
+        font-size: 28px;
+    }
+    .escolhas img {
+        width: 100px;
+        margin-bottom: 0px;
+    }
+    .escolhas h1 {
+        font-size: 26px;
+    }
+    .escolhas p {
         font-size: 14px;
     }
-    .titlepage h2 {
-        font-size: 26px;
-        line-height: 29px;
+    .escolhas .esc-img {
+        height: 60%;
+        width: 110%;
     }
-    .news_text h3 {
-        font-size: 22px;
-        margin-top: 15px;
+    .escolhas .esc-icons{
+        text-align: center;
+        align-items: center;
     }
+
     .footer h3 {
         padding-top: 20px;
     }
-    .project .project_box {
-        max-width: 44%;
-    }
-    .news_form .letter_form {
-        width: 100%;
-    }
-    .news_form .sumbit {
-        float: left;
-        margin-top: 30px;
-        margin-left: 0px !important;
-    }
-    .neslatter {
-        padding-bottom: 0px;
-        margin-bottom: 20px;
-    }
+
     .navigation.navbar {
         float: right;
         display: inherit !important;
@@ -148,6 +156,7 @@
         width: 100%;
         padding-top: 2px !important;
     }
+
     .navigation .navbar-collapse {
         background: #FFE2CB;
         padding: 20px;
@@ -157,27 +166,26 @@
         z-index: 999;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     }
+
     .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 10px 0;
+        padding: 13px 0;
         color: black;
     }
+
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
-        color:  #FACBA4;
+        color: #FACBA4;
         background-color: inherit;
     }
+
     .navigation.navbar-dark .navbar-nav .active>.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color:  #FACBA4;
+        color: #FACBA4;
         background-color: inherit;
     }
-    .navigation.navbar-dark .navbar-toggler {
-        border: inherit;
-        padding-top: 19px !important;
-        padding: 0;
-    }
+
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_icon.png);
         background-repeat: no-repeat;
@@ -190,66 +198,82 @@
     .d_none1 {
         display: none !important;
     }
+
     .logo {
         float: center;
         border: inherit;
         margin-top: 0px !important;
     }
+
     .banner_main {
         padding: 0px;
         min-height: 547px;
         margin-bottom: -320px;
     }
+
     .text-bg h1 {
         font-size: 50px;
         padding-bottom: 20px;
         line-height: 66px;
-    
+
     }
+
     .text-bg p {
         line-height: 30px;
         font-size: 21px;
     }
+
     .project .project_box {
         max-width: 100%;
     }
+
     .ban_img {
         position: inherit;
         margin-right: 0;
     }
+
     .six_box .six_probpx span {
         font-size: 14px;
     }
+
     .titlepage h2 {
         font-size: 25px;
         line-height: 34px;
     }
+
     .news_text h3 {
         font-size: 22px;
         margin-top: 15px;
     }
+
     .footer h3 {
         padding-top: 20px;
         font-size: 22px;
     }
+
     .blodark {
         font-size: 45px;
     }
+
     .about_text h3 {
         font-size: 27px;
     }
+
     .news_form .letter_form {
         width: 100%;
     }
+
     .news_form .sumbit {
         float: left;
         margin-top: 30px;
         margin-left: 0px !important;
     }
+
     .neslatter {
         padding-bottom: 0px;
         margin-bottom: 20px;
     }
+
     .navigation.navbar {
         float: right;
         display: inherit !important;
@@ -257,6 +281,7 @@
         width: 100%;
         margin-top: -68px;
     }
+
     .navigation .navbar-collapse {
         background: #FFE2CB;
         padding: 20px;
@@ -266,27 +291,32 @@
         z-index: 9999;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     }
+
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
         color: black;
     }
+
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
-        color:  burlywood;
+        color: burlywood;
         background-color: inherit;
     }
+
     .navigation.navbar-dark .navbar-nav .active>.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color:  burlywood;
+        color: burlywood;
         background-color: inherit;
     }
+
     .navigation.navbar-dark .navbar-toggler {
         float: right;
         padding: 0;
         border: inherit;
     }
+
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu-burguerv1.png);
         background-repeat: no-repeat;
