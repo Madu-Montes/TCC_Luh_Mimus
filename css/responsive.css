@@ -12,6 +12,7 @@
         padding: 30px 15px;
         font-size: 15px;
     }
+
     .header_topo {
         padding: 0px;
         height: 145px;
@@ -20,6 +21,7 @@
     .banner_main {
         min-height: 100%;
     }
+
     .project .titulos-principais h2 {
         font-size: 32px;
         color: #3F2014;
@@ -27,7 +29,8 @@
         font-weight: bold;
         text-align: center;
         margin-bottom: 15px;
-   }
+    }
+
     .escolhas h1 {
         font-size: 28px;
     }
@@ -42,19 +45,24 @@
     .d_none1 {
         display: none !important;
     }
+
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 23px 8px;
         font-size: 14px;
     }
+
     .header-menu {
         height: 60px;
     }
+
     .form_sea {
         margin-top: -30px;
     }
+
     .banner_main {
         width: 100%;
     }
+
     .project .titulos-principais h2 {
         font-size: 32px;
         color: #3F2014;
@@ -62,37 +70,43 @@
         font-weight: bold;
         text-align: center;
         margin-bottom: 15px;
-   }
+    }
+
     .sabores img {
         width: 100px;
         margin-bottom: 0px;
     }
-    
+
     .sabores .sab_box {
         height: 90%;
         width: 80%;
         border-radius: 20px;
         align-items: center;
     }
+
     .escolhas img {
         width: 100px;
         margin-bottom: 0px;
     }
+
     .escolhas h1 {
         font-size: 26px;
     }
+
     .escolhas p {
         font-size: 14px;
     }
+
     .escolhas .esc-img {
         height: 60%;
         width: 110%;
     }
-    .escolhas .esc-icons{
+
+    .escolhas .esc-icons {
         text-align: center;
         align-items: center;
     }
-    
+
 }
 
 
@@ -104,6 +118,7 @@
     .banner_main {
         width: 100%;
     }
+
     .project .titulos-principais h2 {
         font-size: 30px;
         color: #3F2014;
@@ -111,32 +126,31 @@
         font-weight: bold;
         text-align: center;
         margin-bottom: 15px;
-   }
-   .sabores .sab_box{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
-    margin-top: 15px;
-    margin-bottom: 20px;
-    width: 100%;
-    border-radius: 20px;
-    align-items: center;
-}
+    }
 
-.sabores .sab_box{
-    width: 80%;
-}
+    .sabores .sab_box {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+        border-radius: 20px;
+        align-items: center;
+    }
 
     .escolhas h1 {
         font-size: 26px;
     }
+
     .escolhas p {
         font-size: 14px;
     }
+
     .escolhas .esc-img {
-        height: 100%;
-        width: 100%;
-    }
-    .escolhas .esc-icons{
+        display: none !important;
+}
+
+    .escolhas .esc-icons {
         text-align: center;
         align-items: center;
     }
@@ -190,7 +204,7 @@
     }
 }
 
-@media (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 575px) {
     .d_none1 {
         display: none !important;
     }
@@ -205,10 +219,46 @@
         width: 100%;
     }
 
-    
+    .project .titulos-principais h2 {
+        font-size: 26px;
+        color: #3F2014;
+        line-height: 100px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .sabores .sab_box {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 70%;
+        border-radius: 20px;
+        align-items: center;
+    }
+
+    .escolhas h1 {
+        font-size: 26px;
+    }
+
+    .escolhas p {
+        font-size: 14px;
+    }
+
+    .escolhas .esc-img {
+            display: none !important;
+    }
+
+    .escolhas .esc-icons {
+        text-align: center;
+        align-items: center;
+    }
+
+
     .footer h3 {
         padding-top: 20px;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .navigation.navbar {
