@@ -13,6 +13,7 @@
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
   <!-- style css -->
   <link rel="stylesheet" href="css/style.css">
   <!-- Responsive-->
@@ -143,34 +144,66 @@
       <h2>NOSSOS SABORES</h2>
     </div>
     <!--seção sabores-->
-    <div class="sabores">
-      <div class="sab-boxes">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="sab_box">
-                <i><img src="images/bolo1.png" class="img-fluid"></i>
-                <span>BOLOS</span>
+    <section id="sabores-swiper">
+    
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+  
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./images/Frame 5.png" alt="">
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="sab_box">
-                <i><img src="images/bolo1.png"></i>
-                <span>SALGADOS</span>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="sab_box">
-                <i><img src="images/bolo1.png"></i>
-                <span>DOCES</span>
-              </div>
-            </div>
+          </div>
 
-            <!--<div class="col-md-4">
-                                 <div class="sab_box">
-                                    <i><img src="images/bolo1.png"></i>
-                                    <span>PERSONALIZADOS</span>
-                                 </div>-->
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./images/Frame 6.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./images/Frame 7.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./images/Frame 8.png" alt="">
+              </div>  
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./images/Frame 9.png" alt="">
+              </div>      
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="./images/Frame 10.png" alt="">
+              </div>               
+            </div>
+          </div>
+
+         
+  
+      <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+           
           </div>
         </div>
       </div>
@@ -341,6 +374,31 @@
   <!-- sidebar -->
   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="js/custom.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  
+
+
 </body>
 
 </html>
