@@ -500,7 +500,7 @@ ul.right_icon li img {
 }
 
 .destaques-boxes{
-     background-color: #ffff;
+     background-color: #FACBA4;
      height: 95%;
      width: 100%;
      display: flex;
@@ -626,29 +626,20 @@ ul.right_icon li img {
 /** inner page css **/
 .footer {
      background-color: #ECE6DE;
-     padding-top: 80px;
+     padding-top: 40px;
+     padding-bottom: 40px;
      text-align: center;
-     height: 50%;
+     height: 30%;
 }
 
 .footer h3 {
      color: #000;
-     font-size: 20px;
+     font-size: 16px;
      line-height: 20px;
      text-transform: uppercase;
      text-align: center;
      padding-bottom: 20px;
      font-weight: 600;
-}
-
-.footer p {
-     color: #000;
-     font-size: 17px;
-     line-height: 32px;
-     text-align: center;
-     padding-right: 31px;
-     font-weight: 400;
-     display: inline-block;
 }
 
 .footer img{
@@ -667,17 +658,15 @@ ul.right_icon li img {
 }
 
 .copyright p {
-     color: #292929;
+     color: #0000009d;
      font-size: 18px;
-     line-height: 22px;
-     text-align: left;
-     padding-top: 0%;
-     font-weight: normal;
-     padding-right: 0 !important;
+     text-align: center;
 }
 
 .copyright a {
-     color: #292929;
+     color: #000000e0;
+     text-align: center;
+     padding-top: 10px;
 }
 
 .copyright a:hover {

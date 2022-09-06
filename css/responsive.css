@@ -19,6 +19,7 @@
     .header_topo {
         padding-top: 10px;
         height: 145px;
+        width: 100%;
     }
 
     .banner_main {
@@ -58,10 +59,6 @@
         height: 60px;
     }
 
-    .form_sea {
-        margin-top: -30px;
-    }
-
     .banner_main {
         width: 100%;
     }
@@ -85,6 +82,12 @@
         width: 80%;
         border-radius: 20px;
         align-items: center;
+    }
+    .destaques h3{
+        font-size: 20px;
+    }
+    .destaques h4{
+        font-size: 16px;
     }
 
     .escolhas img {
@@ -139,6 +142,10 @@
         width: 100%;
         border-radius: 20px;
         align-items: center;
+    }
+    .destaques .dest_box{
+        background-color: aquamarine;
+        width: 70%;
     }
 
     .escolhas h1 {
@@ -223,12 +230,16 @@
     }
 
     .project .titulos-principais h2 {
-        font-size: 26px;
+        font-size: 24px;
         color: #3F2014;
         line-height: 100px;
         font-weight: bold;
         text-align: center;
         margin-bottom: 15px;
+    }
+    .project .titulos-principais img{
+        width: 80px;
+
     }
 
     .sabores .sab_box {
