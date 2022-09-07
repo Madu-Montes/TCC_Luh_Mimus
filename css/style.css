@@ -382,13 +382,24 @@ ul.right_icon li img {
 
 /** project section **/
 
+.project #logoitem{
+
+     margin-top: 30px;
+}
+
 .project {
      background-size: 100% 100%;
      padding: 20px 0 20px 0;
+     align-items: center;
+     text-align: center;
+        
  
 }
+
+
 .project .titulos-principais{
      text-align: center;
+
 }
 
 .project .titulos-principais h2 {

@@ -72,10 +72,10 @@
                     <a class="nav-link" href="./html/cardapio.html">Cardápio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="quemsomos.html">Quem somos</a>
+                    <a class="nav-link" href="./html/quemsomos.html">Quem somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contato.html">Contato</a>
+                    <a class="nav-link" href="./html/contato.html">Contato</a>
                   </li>
                 </ul>
               </div>
@@ -98,7 +98,7 @@
   <!-- end header -->
   <!-- banner -->
   <section class="banner_main">
-    <div class="row">
+    
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -108,13 +108,13 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <div class="img"><img class="d-block img-fluid" src="./images/2.png" alt="First slide"></div>
+            <div class="img"><img class="d-block img-fluid" src="./images/2.png" alt="First slide" width="100%"></div>
           </div>
           <div class="carousel-item">
-            <div class="img"><img class="d-block img-fluid" src="./images/1.png" alt="Second slide"></div>
+            <div class="img"><img class="d-block img-fluid" src="./images/1.png" alt="Second slide"  width="100%"></div>
           </div>
           <div class="carousel-item">
-            <div class="img"><img class="d-block img-fluid" src="./images/4.png" alt="Third slide"></div>
+            <div class="img"><img class="d-block img-fluid" src="./images/4.png" alt="Third slide"  width="100%"></div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -138,21 +138,29 @@
   <!-- end banner -->
 
   <!-- project section -->
+ 
   <div class="project">
+    <img  src="./images/itens-black.svg" alt="itens de confeitaria" class="logoalinha" id="logoitem">
     <div class="titulos-principais">
-      <img src="./images/itens-black.svg" alt="itens de confeitaria">
-      <h2>NOSSOS SABORES</h2>
+      
+      <h2 id="sabores-titulo">NOSSOS SABORES</h2>
     </div>
+          
+                
+     
+     
     <!--seção sabores-->
     <section id="sabores-swiper">
-
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
       <div class="swiper mySwiper container">
         <div class="swiper-wrapper content">
 
           <div class="swiper-slide card">
             <div class="card-content">
               <div class="image">
-                <img src="./images/Frame 5.png" alt="">
+               <i> <img src="./images/Frame 5.png" alt="" class="img-fluid"> </i>
               </div>
             </div>
           </div>
@@ -160,7 +168,7 @@
           <div class="swiper-slide card">
             <div class="card-content">
               <div class="image">
-                <img src="./images/Frame 6.png" alt="">
+                <i> <img src="./images/Frame 6.png" alt="" class="img-fluid"></i>
               </div>
             </div>
           </div>
@@ -168,7 +176,7 @@
           <div class="swiper-slide card">
             <div class="card-content">
               <div class="image">
-                <img src="./images/Frame 7.png" alt="">
+                <i><img src="./images/Frame 7.png" alt="" class="img-fluid"></i>
               </div>
             </div>
           </div>
@@ -176,7 +184,7 @@
           <div class="swiper-slide card">
             <div class="card-content">
               <div class="image">
-                <img src="./images/Frame 8.png" alt="">
+                <i><img src="./images/Frame 8.png" alt="" class="img-fluid"></i>
               </div>
             </div>
           </div>
@@ -184,7 +192,7 @@
           <div class="swiper-slide card">
             <div class="card-content">
               <div class="image">
-                <img src="./images/Frame 9.png" alt="">
+                <i><img src="./images/Frame 9.png" alt="" class="img-fluid"></i>
               </div>
             </div>
           </div>
@@ -192,7 +200,7 @@
           <div class="swiper-slide card">
             <div class="card-content">
               <div class="image">
-                <img src="./images/Frame 10.png" alt="">
+                <i><img src="./images/Frame 10.png" alt="" class="img-fluid"></i>
               </div>
             </div>
           </div>
@@ -212,7 +220,7 @@
     <!--fim seção sabores-->
     <!--inicio da seção destaques-->
     <div class="titulos-principais">
-      <br><img src="./images/itens-black.svg" alt="itens de confeitaria">
+      <img src="./images/itens-black.svg" alt="itens de confeitaria">
       <h2>DESTAQUES</h2>
     </div>
     <div class="destaques">
@@ -296,7 +304,7 @@
   </div>
 
   <!--fim do project-->
-  <a href="#" id="link-topo"><img src="./images/voltatopo.png" alt=""></a>
+
   <!--  footer -->
   <footer>
     <div class="footer">
@@ -356,6 +364,8 @@
         </div>
       </div>
   </footer>
+  <a href="#" id="link-topo"><img src="./images/voltatopo.png" alt=""></a>
+  
   <!-- end footer -->
   <!-- Javascript files-->
   <script src="js/jquery.min.js"></script>
