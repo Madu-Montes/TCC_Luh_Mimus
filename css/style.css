@@ -261,7 +261,7 @@ ul.conta_icon li a i {
 
 ul.conta_icon li a {
      color: #3F2014;
-     font-size: 17px;
+     font-size: 15px;
 }
 
 ul.conta_icon li a:hover {
@@ -391,7 +391,7 @@ ul.right_icon li img {
 } */
 
 .search {
-     padding: 24px 0;
+     padding: 9px 0;
      text-align: right;
 }
 
@@ -437,7 +437,7 @@ ul.right_icon li img {
 
 .project #logoitem{
 
-     margin-top: 30px;
+     margin-top: 15px;
 }
 
 .project {
@@ -480,7 +480,7 @@ ul.right_icon li img {
    .card{
      position: relative;
      border-radius: 0px;
-     margin: 20px 0;
+     margin: 70px 0;
      border-color: #FFE2CB;
      
      background-color: #FFE2CB;
