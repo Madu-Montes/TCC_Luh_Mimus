@@ -301,11 +301,64 @@ ul.right_icon li img {
 
 /*--   navigation--*/
 
-.header-menu {
-     background-color: #FFE2CB;
+.snip1143 * {
+     box-sizing: border-box;
+     -webkit-transition: all 0.35s ease;
+     transition: all 0.35s ease;
+   }
+   .snip1143 li {
+     display: inline-block;
+     list-style: outside none none;
+     margin: 0 1.5em;
+     overflow: hidden;
+   }
+   .snip1143 a {
+     padding: 0.3em 0;
+     color: rgba(36, 34, 34, 0.5);
+     position: relative;
+     display: inline-block;
+     letter-spacing: 1px;
+     margin: 0;
+     text-decoration: none;
+     font-size: 17px;
+     line-height: 20px;
+     font-weight: 400;
+   }
+   .snip1143 a:before,
+   .snip1143 a:after {
+     position: absolute;
+     -webkit-transition: all 0.35s ease;
+     transition: all 0.35s ease;
+   }
+   .snip1143 a:before {
+     top: 100%;
+     display: block;
+     height: 3px;
+     width: 100%;
+     content: "";
+     background-color: #ffe3cc;
+   }
+   .snip1143 a:after {
+     padding: 0.3em 0;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     content: attr(data-hover);
+     color: rgb(0, 0, 0);
+     white-space: nowrap;
+   }
+   .snip1143 li:hover a,
+   .snip1143 .current a {
+     transform: translateY(-100%);
+   }
+
+ .header-menu {
+     background-color: #ffffff;
      height: 100%;
      width: 100%;
-}
+  }
+
+/*
 
 .navigation.navbar {
      float: left;
@@ -335,7 +388,7 @@ ul.right_icon li img {
 
 .navbar-expand-md .navbar-nav {
      padding-right: 10px;
-}
+} */
 
 .search {
      padding: 24px 0;
@@ -344,7 +397,7 @@ ul.right_icon li img {
 
 .form_sea {
      border-radius: 20px;
-     border: #fff solid 1px;
+     border: #FFE2CB solid 1px;
      padding: 0px 15px;
      color: #000;
      height: 32px;
