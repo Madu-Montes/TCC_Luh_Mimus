@@ -333,10 +333,10 @@ ul.right_icon li img {
    .snip1143 a:before {
      top: 100%;
      display: block;
-     height: 3px;
+     height: 5px;
      width: 100%;
      content: "";
-     background-color: #ffe3cc;
+     background-color: #FACBA4;
    }
    .snip1143 a:after {
      padding: 0.3em 0;
