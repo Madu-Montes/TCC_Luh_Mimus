@@ -178,10 +178,10 @@ img {
 }
 
 .btn-custom {
-     margin-top: 20px;
+     margin-top: 30px;
      background-color: transparent !important;
      border: 2px solid #ddd;
-     padding: 12px 40px;
+     padding: 22px 40px;
      font-size: 16px;
 }
 
@@ -311,6 +311,9 @@ ul.right_icon li img {
      list-style: outside none none;
      margin: 0 1.5em;
      overflow: hidden;
+     position: relative!important;
+     top: -27px;  
+     
    }
    .snip1143 a {
      padding: 0.3em 0;
@@ -323,6 +326,7 @@ ul.right_icon li img {
      font-size: 17px;
      line-height: 20px;
      font-weight: 400;
+     line-height: 80px;
    }
    .snip1143 a:before,
    .snip1143 a:after {
