@@ -63,6 +63,10 @@
         width: 100%;
     }
 
+    .galery-container .image{
+        flex: 50%;
+    }
+
     .project .titulos-principais h2 {
         font-size: 32px;
         color: #3F2014;
@@ -123,6 +127,9 @@
 
     .banner_main {
         width: 100%;
+    }
+    .galery-container .image{
+        flex: 50%;
     }
 
     .project .titulos-principais h2 {
@@ -227,6 +234,10 @@
 
     .banner_main {
         width: 100%;
+    }
+
+    .galery-container .image{
+        flex: 33.33%;
     }
 
     .project .titulos-principais h2 {
