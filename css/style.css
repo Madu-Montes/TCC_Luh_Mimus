@@ -255,13 +255,9 @@ button {
      display: block;
 }
 
-ul.conta_icon li a i {
-     padding-right: 5px;
-}
-
 ul.conta_icon li a {
      color: #3F2014;
-     font-size: 15px;
+     font-size: 13px;
 }
 
 ul.conta_icon li a:hover {
@@ -284,13 +280,17 @@ ul.right_icon li img {
      float: right;
      max-width: 120px;
      font-size: 14px !important;
-     color: #fff !important;
+     color: rgba(0, 0, 0, 0.801) !important;
      height: 28px;
      width: 100%;
-     background-color: #FACBA4;
+     border: 1px solid #EED0B3;
      display: block;
      text-align: center;
      border-radius: 40px;
+}
+
+.order img{
+     padding-bottom: 2px;
 }
 
 .order:hover {
@@ -447,7 +447,6 @@ ul.right_icon li img {
 /** project section **/
 
 .project #logoitem {
-
      margin-top: 15px;
 }
 
@@ -456,8 +455,6 @@ ul.right_icon li img {
      padding: 20px 0 20px 0;
      align-items: center;
      text-align: center;
-
-
 }
 
 
