@@ -1,14 +1,18 @@
 .img-luh{
-    border-radius: 5px;
+    border-radius: 20px;
     height: 100%;
     width: 100%;
+    margin-left: 15px;
+    background-color: red;
     
 }
 
-.quemsomos-container{
+.project .quemsomos-container{
     border-radius: 5px;
     border: 2px solid;
     border-color: #EED0B3;
     height: 100%;
     width: 50%;
+    background-color: white;
+    margin-left: 70px;
   }

@@ -1,12 +1,13 @@
-.project {
-    background-size: 100% 100%;
+.project-app {
     background-color: #FFE1C9;
 }
 
-.project .app-text{
+.project-app .app-text{
+    margin-left: 33px;
+    width: 120%;
 }
 
-.project .app-img{
-    background-color: blueviolet;
-    margin-left: 150px;
+.project-app .app-img{
+    margin-left: 100px;
+    width: 110%;
 }
