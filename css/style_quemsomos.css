@@ -1,3 +1,28 @@
+.project .historia-luh {
+    background-color: rgb(150, 47, 47);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20;
+}
+
+.escolhas .escolha-text {
+    color: #3F2014;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.escolhas h1 {
+    text-align: center;
+    color: #3F2014;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
 .img-luh{
     border-radius: 20px;
     height: 100%;
