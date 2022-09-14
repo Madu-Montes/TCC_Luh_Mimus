@@ -336,27 +336,39 @@
         height: 44px;
         margin-top: -50px;
     }
-
-    .img-luh{
+    .project-historia .img-luh{
         height: 100%;
-        width: 80%;
-        background-color: white;
+        width: 100%;
+        margin-left: 0%;
         margin-right: 10%;
-        margin-left: 10%;  
     }
     
-    .project .quemsomos-container{
+    .project-historia .historia-luh {
+        width: 90%;
+        height: 100%;
         border-radius: 5px;
         border: 2px solid;
         border-color: #EED0B3;
-        height: 100%;
-        width: 100%;
         background-color: white;
+        margin-left: 5%;
         margin-right: 10%;
-        margin-left: 10%;
-        margin-top: 20px;
-       
-      }
+    }
+    .historia-luh h1 {
+        text-align: center;
+        color: #3F2014;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .historia-luh h2 {
+        font-size: 16px;
+        text-align: center;
+        color: #3F2014;
+        margin-top: 10px;
+    }
+    
+
+    
       .project-app .app-text{
         display: none !important;
     }
