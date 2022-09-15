@@ -250,6 +250,11 @@ button {
      height: 135px;
 }
 
+.email-icon{
+     margin-left: 22%;
+
+}
+
 .logo {
      text-align: center;
      display: block;
@@ -364,8 +369,9 @@ ul.right_icon li img {
 
 .header-menu {
      background-color: #ffffff;
-     height: 100%;
+     height: 60px;
      width: 100%;
+
 }
 
 /*
