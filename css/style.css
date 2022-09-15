@@ -252,7 +252,10 @@ button {
 
 .email-icon{
      margin-left: 22%;
-
+}
+.email-icon li a:hover {
+          color: #FACBA4;
+          text-decoration: none;
 }
 
 .logo {
@@ -288,10 +291,10 @@ ul.right_icon li img {
      color: rgba(0, 0, 0, 0.801) !important;
      height: 28px;
      width: 100%;
-     border: 1px solid #EED0B3;
+     border: 1px solid #FFE2CB;
      display: block;
      text-align: center;
-     border-radius: 40px;
+     border-radius: 20px;
 }
 
 .order img{
@@ -299,7 +302,7 @@ ul.right_icon li img {
 }
 
 .order:hover {
-     background-color: #FFE2CB;
+     background-color: #FACBA4;
 
 }
 

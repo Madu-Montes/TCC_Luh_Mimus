@@ -222,6 +222,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
+    .email-icon{
+        display: none !important;
+    }
     .d_none1 {
         display: none !important;
     }
