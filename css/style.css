@@ -466,7 +466,6 @@ ul.right_icon li img {
      text-align: center;
 }
 
-
 .project .titulos-principais {
      text-align: center;
 
@@ -478,6 +477,7 @@ ul.right_icon li img {
      line-height: 100px;
      font-weight: bold;
      text-align: center;
+     margin-top: -20px;
      margin-bottom: 15px;
 }
 
@@ -490,9 +490,6 @@ ul.right_icon li img {
      padding: 0;
      box-sizing: border-box;
      background-color: #FFE2CB;
-
-
-
 }
 
 .card {
@@ -558,7 +555,8 @@ section .card .image img:hover {
 .destaques {
      justify-items: center;
      margin-top: 20px;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
+     background-color: #FACBA4;
 }
 
 .destaques h2 {
@@ -582,12 +580,11 @@ section .card .image img:hover {
 .destaques h4 {
      font-size: 18px;
      text-align: center;
-     margin-top: 10px;
+     margin-top: 5px;
 }
 
 .destaques-boxes {
-     background-color: #FACBA4;
-     height: 95%;
+     height: 80%;
      width: 100%;
      display: flex;
      align-items: center;
@@ -600,7 +597,7 @@ section .card .image img:hover {
      box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
      margin-top: 20px;
      margin-bottom: 20px;
-     height: 95%;
+     height: 90%;
      border-radius: 20px;
 }
 
@@ -668,8 +665,6 @@ section .card .image img:hover {
      color: #3F2014;
      font-weight: bold;
      margin-top: 10px;
-
-
 }
 
 .escolhas p {
