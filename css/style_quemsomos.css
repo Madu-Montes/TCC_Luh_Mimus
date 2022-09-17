@@ -31,3 +31,53 @@
     color: #3F2014;
 }
 
+.project-historia .titulos-principais {
+    text-align: center;
+
+}
+
+.project-historia .titulos-principais h2 {
+    font-size: 34px;
+    color: #502a1a;
+    line-height: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.trajetoria .coluna1{
+    background-color: chartreuse; 
+    height: 100%;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+
+.trajetoria .coluna1 h1{
+    font-size: 30px;
+    color: #502a1a;
+    line-height: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.trajetoria .coluna2{
+    background-color: yellow; 
+    width: 45%;
+    height: 100%;
+    float: right;
+    margin-right: 5%;
+}
+
+.trajetoria .coluna2 h1{
+    font-size: 30px;
+    color: #502a1a;
+    line-height: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
