@@ -102,19 +102,27 @@
       <div class="image-box">
         <img src="../images/contato.png" alt="">
       </div>
-      <form action="#">
+      <form action="https://formsubmit.co/freitasgabrielly638@gmail.com" method="POST">
         <div class="topic">FALE CONOSCO!</div>
         <div class="input-box">
-          <input type="text" required>S
+          <input type="text" name="name"  required minlength="2">
+          <span></span>
           <label>Nome completo</label>
         </div>
         <div class="input-box">
-          <input type="text" required>
+          <input type="email" name="email" required maxlength="256">
+          <span></span>
           <label>Email</label>
+          
+          <input type="hidden" name="_captcha" value="false">
+        
         </div>
        
           <div class="message-box">
-            <textarea class="form-control" rows="10" placeholder="Sua mensagem" name="message" required></textarea>
+            
+            
+          <textarea class="form-control" rows="10" placeholder="Sua mensagem" name="message" required minlength="2"></textarea>
+          <span></span>
           </div>
 
 
@@ -211,6 +219,7 @@
   <!-- sidebar -->
   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="js/custom.js"></script>
+  
 </body>
 
 </html>
