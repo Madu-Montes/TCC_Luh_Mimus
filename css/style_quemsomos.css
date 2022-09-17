@@ -46,14 +46,13 @@
 }
 
 .trajetoria .coluna1{
-    background-color: #e74d0a;
     height: 100%;
     width: 42%;
     float: left;
     margin-left: 5%;
 }
 
-.trajetoria .coluna1 h1{
+.trajetoria h1{
     font-size: 30px;
     color: #502a1a;
     line-height: 100px;
@@ -61,23 +60,25 @@
     text-align: center;
 }
 
+.trajetoria h2{
+    font-size: 16px;
+}
+
 .trajetoria .coluna2{ 
-    background-color: aqua;
     width: 42%;
     height: 100%;
     float: right;
     margin-right: 5%;
 }
 
-.trajetoria .coluna2 h1{
-    font-size: 30px;
-    color: #502a1a;
-    line-height: 100px;
-    font-weight: bold;
-    text-align: center;
-}
-
 .clear{
     clear: both;
 }
 
+.trajetoria .linha{
+    border-left: 2px solid #502a1a;
+    height: 145%;
+    position: absolute;
+    left: 50%;
+    margin-left: 3px;
+}
