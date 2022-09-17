@@ -1,23 +1,23 @@
 .project-historia{
+    width: 100%;
+    height: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.project-historia .img-luh{
-    border-radius: 20px;
+.project-historia .img-luh img{
+    width: 100%;
     height: 100%;
-    width: 130%;
-    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .project-historia .historia-luh {
-    width: 70%;
+    width: 100%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid;
     border-color: #EED0B3;
-    background-color: white;
-    margin-left: 27%;
+    margin-left: 0%;
 }
 .historia-luh h1 {
     text-align: center;
@@ -46,9 +46,9 @@
 }
 
 .trajetoria .coluna1{
-    background-color: chartreuse; 
+    background-color: #e74d0a;
     height: 100%;
-    width: 45%;
+    width: 42%;
     float: left;
     margin-left: 5%;
 }
@@ -61,9 +61,9 @@
     text-align: center;
 }
 
-.trajetoria .coluna2{
-    background-color: yellow; 
-    width: 45%;
+.trajetoria .coluna2{ 
+    background-color: aqua;
+    width: 42%;
     height: 100%;
     float: right;
     margin-right: 5%;
