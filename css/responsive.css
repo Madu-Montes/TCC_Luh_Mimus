@@ -307,15 +307,17 @@
         width: 100%;
         margin-top: -68px;
     }
+    .header-menu{
+        text-align: center;
+    }
 
     .navigation .navbar-collapse {
         background: #FFE2CB;
         margin-top: 68px;
         position: absolute;
-        width: 70%;
+        width: 100%;
         z-index: 9999;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-        background-color: aqua;
     }
 
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
