@@ -24,11 +24,18 @@
     color: #3F2014;
     font-weight: bold;
     font-size: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
 }
 .historia-luh h2 {
     text-align: center;
     color: #3F2014;
+    padding-left: 5%;
+    padding-right: 5%;
+    opacity: 80%;
+    margin-top: 5%;
+
 }
 
 .project-historia .titulos-principais {
@@ -42,7 +49,8 @@
     line-height: 100px;
     font-weight: bold;
     text-align: center;
-    margin-top: 30px;
+    margin-left: 0.5%;
+    margin-top: 70px;
 }
 
 .trajetoria .coluna1{
@@ -50,6 +58,7 @@
     width: 42%;
     float: left;
     margin-left: 5%;
+    margin-top: 30px;
 }
 
 .trajetoria h1{
@@ -57,28 +66,48 @@
     color: #502a1a;
     line-height: 100px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 20px;
+ 
 }
 
 .trajetoria h2{
-    font-size: 16px;
+    font-size: 18px;
+    margin-left: 25%;
+    opacity: 80%;
 }
 
 .trajetoria .coluna2{ 
     width: 42%;
     height: 100%;
     float: right;
-    margin-right: 5%;
+    margin-right: 11%;
+    margin-top: 80px;
+    text-align: left;
 }
+
+.trajetoria .coluna2 h1{ 
+   text-align: left;
+}
+
 
 .clear{
     clear: both;
 }
 
 .trajetoria .linha{
-    border-left: 2px solid #502a1a;
+    border-left: 2px solid ;
     height: 145%;
+    opacity: 50%;
     position: absolute;
     left: 50%;
     margin-left: 3px;
+}
+#mudancas-img{
+    float: right;
+    height: 25%;
+    width: 25%;
+    margin-right: 20%;
+    margin-top: 4%;
 }

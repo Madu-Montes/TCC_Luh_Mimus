@@ -205,21 +205,6 @@
     background: #fff;
   }
   
-  .content .input-box input[type="text"]:valid, input[type="email"]:valid {
-    border-color: lightseagreen;
-    
-  }
-  .content .message-box textarea:valid  {
-    border-color: lightseagreen;
-    
-  }
-  .content .input-box input:valid ~ label{
-    top: 0;
-    left: 12px;
-    display: 14px;
-    color: lightseagreen;
-    background: #fff;
-  }
 
   .content .input-box input[type="text"]:invalid, input[type="email"]:invalid {
     border-color: mediumvioletred;
@@ -234,3 +219,5 @@
     color: mediumvioletred;
 
   }
+
+ 
