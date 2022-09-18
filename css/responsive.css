@@ -192,10 +192,12 @@
         border-radius: 20px;
         align-items: center;
     }
-    .destaques .dest_box{
-        background-color: aquamarine;
-        width: 70%;
-    }
+    .destaques .dest_box {
+        width: 80%;
+        height: 90%;
+        margin-left: 9%;
+   }
+
 
     .escolhas h1 {
         font-size: 26px;
@@ -300,13 +302,18 @@
         float: center;
         border: inherit;
         margin-top: 0px !important;
-        width: 170px;
-        margin-left: 25%;
+        width: 130px;
+        margin-left: 27%;
     }
 
     .banner_main {
         width: 100%;
     }
+    .destaques .dest_box {
+        width: 80%;
+        height: 90%;
+        margin-left: 9%;
+   }
 
     .galery-container .image{
         flex: 33.33%;
