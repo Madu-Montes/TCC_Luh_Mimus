@@ -7,6 +7,10 @@
     .banner_main{
         width: 100%;
     }  
+    .esc-icons{
+        display: none !important;
+    }
+    
     /*nada para alterar aqui por enquanto*/
 }
 
@@ -44,9 +48,12 @@
         width: 112%;
     }
     .trajetoria .linha{
-        height: 255%;
-        
+        height: 255%; 
     }
+    .esc-icons{
+        display: none !important;
+    }
+    
     
 }
 
@@ -146,6 +153,13 @@
     }
     .trajetoria .linha{
         height: 245%;
+    }
+    .esc-img{
+        height: 200%;
+    }
+
+    .esc-icons{
+        display: none !important;
     }
     
     

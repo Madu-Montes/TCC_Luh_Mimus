@@ -555,7 +555,7 @@ section .card .image img:hover {
      justify-items: center;
      margin-top: 20px;
      margin-bottom: 20px;
-     background-color: #FACBA4;
+     background-color: #FFE2CB;
 }
 
 .destaques h2 {
@@ -643,6 +643,7 @@ section .card .image img:hover {
      padding-top: 30px;
      padding-bottom: 30px;
      padding-left: 20;
+     margin-left: 5%;
 }
 
 .escolhas .escolha-text {
@@ -693,7 +694,8 @@ section .card .image img:hover {
 .escolhas .esc-img img {
      padding-top: 20px;
      width: 80%;
-     height: 90%
+     height: 90%;
+     margin-right: 30%;
 }
 
 /*fim da seção escolhas*/
