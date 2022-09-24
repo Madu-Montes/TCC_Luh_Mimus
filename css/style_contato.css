@@ -166,7 +166,7 @@
     transition: all 0.3s ease;
   }
   
-  @media (max-width:1000px) {
+  @media (max-width:1200px) {
     .content .image-box{
       max-width: 70%;
     }
@@ -174,7 +174,7 @@
       padding: 10px 0;
     }
   }
-  @media (max-width:900px) {
+  @media (max-width:992px) {
     .content .image-box{
       display: none;
     }
@@ -190,33 +190,33 @@
   
   
   .content .input-box input[type="text"]:valid, input[type="email"]:valid {
-    border-color: lightseagreen;
+    border-color: rgb(129, 194, 129);
     
   }
   .content .message-box textarea:valid  {
-    border-color: lightseagreen;
+    border-color: rgb(129, 194, 129);
     
   }
   .content .input-box input:valid ~ label{
     top: 0;
     left: 12px;
     display: 14px;
-    color: lightseagreen;
+    color: rgb(129, 194, 129);
     background: #fff;
   }
   
 
   .content .input-box input[type="text"]:invalid, input[type="email"]:invalid {
-    border-color: mediumvioletred;
+    border-color: rgb(196, 13, 13);
     
   }
   .content .message-box textarea:invalid  {
-    border-color: mediumvioletred;
+    border-color: rgb(196, 13, 13);
     
   }
   .content .input-box input:invalid ~ label{
   
-    color: mediumvioletred;
+    color: rgb(196, 13, 13);
 
   }
 
