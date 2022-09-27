@@ -74,7 +74,8 @@
         height: 60px;
     }
     .snip1143 li a{
-        font-size: 12px; /*parte a ser arrumada aqui!!!!!*/
+        background-color: aquamarine;
+        font-size: 11px; /*parte a ser arrumada aqui!!!!!*/
     }
 
     .banner_main {
@@ -268,27 +269,21 @@
         display: inherit !important;
         padding: 0;
         width: 100%;
-        padding-top: 2px !important;
+        margin-top: -68px;
     }
 
     .navigation .navbar-collapse {
         background: #FFE2CB;
-        padding: 20px;
-        margin-top: 24px;
+        margin-top: 68px;
         position: absolute;
         width: 100%;
-        z-index: 999;
+        z-index: 9999;
         box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-    }
-
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 13px 0;
-        color: black;
     }
 
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
-        color: #FACBA4;
+        color: burlywood;
         background-color: inherit;
     }
 
@@ -296,15 +291,23 @@
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
-        color: #FACBA4;
+        color: burlywood;
         background-color: inherit;
     }
 
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        padding: 0;
+        border: inherit;
+    }
+
     .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
+        background: url(../images/menu-burguerv1.png);
         background-repeat: no-repeat;
-        width: 64px;
+        width: 50px;
         height: 44px;
+        margin-top: -80px;
+        margin-left: 370%;
     }
 }
 
