@@ -741,22 +741,18 @@ section .card .image img:hover {
 /*inicio da seção escolha*/
 
 .project .escolhas {
-     background-color: #fff;
      height: 100%;
-     width: 100%;
+     width: 90%;
      text-align: center;
      display: flex;
      align-items: center;
-     padding-top: 30px;
-     padding-bottom: 30px;
-     padding-left: 20;
      margin-left: 5%;
+     margin-right: 5%;
 }
 
 .escolhas .escolha-text {
      color: #3F2014;
      margin-top: 10px;
-     margin-bottom: 35px;
 }
 
 .escolhas h1 {
@@ -800,8 +796,8 @@ section .card .image img:hover {
 
 .escolhas .esc-img img {
      padding-top: 20px;
-     width: 80%;
-     height: 90%;
+     width: 90%;
+     height: 100%;
      margin-right: 30%;
 }
 
