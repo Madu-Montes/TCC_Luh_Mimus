@@ -5,7 +5,14 @@
 }
 
 
-
+.popular_courses {
+    padding-bottom: 100px;
+}
+@media (max-width: 991px) {
+    .popular_courses {
+        padding-bottom: 40px;
+    }
+}
 .popular_courses .owl-item {
     opacity: 0;
     -webkit-transition: all 0.3s ease 0s;
