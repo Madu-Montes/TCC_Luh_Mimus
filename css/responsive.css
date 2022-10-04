@@ -48,7 +48,7 @@
         width: 112%;
     }
     .trajetoria .linha{
-        height: 155%; 
+        height: 255%; 
     }
     .esc-icons{
         display: none !important;
@@ -157,7 +157,7 @@
         font-size: 15px;
     }
     .trajetoria .linha{
-        height: 150%;
+        height: 245%;
     }
     .esc-img{
         height: 200%;
@@ -257,7 +257,7 @@
         font-size: 15px;
     }
     .trajetoria .linha{
-        height: 175%;
+        height: 290%;
     }
 
     .footer h3 {
@@ -491,19 +491,6 @@
         margin-right: 5px;
         width: 100%;
     }
-
-    .trajetoria .linha{
-        display: none;
-    }
-
-    .trajetoria .coluna1{
-        float: none;
-        width: 80%;
-    }
-    .trajetoria .coluna2{
-        float: none;
-        width: 80%;
-    }
+    
 }
-
 
