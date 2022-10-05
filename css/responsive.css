@@ -10,6 +10,10 @@
     .esc-icons{
         display: none !important;
     }
+
+    .trajetoria .linha{
+        height: 122%;
+    }
     
     /*nada para alterar aqui por enquanto*/
 }
@@ -48,7 +52,7 @@
         width: 112%;
     }
     .trajetoria .linha{
-        height: 255%; 
+        height: 132%; 
     }
     .esc-icons{
         display: none !important;
@@ -157,7 +161,7 @@
         font-size: 15px;
     }
     .trajetoria .linha{
-        height: 245%;
+        height: 185%;
     }
     .esc-img{
         height: 200%;
@@ -251,13 +255,27 @@
     }
 
     .trajetoria h1{
-        font-size: 20px;
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: -10%;
     }
     .trajetoria h2{
         font-size: 15px;
     }
     .trajetoria .linha{
-        height: 290%;
+        display: none;
+    }
+
+    .trajetoria .coluna1{
+        float: none;
+        width: 90%;
+        margin-left: -4%;
+    }
+
+    .trajetoria .coluna2{
+        float: none;
+        width: 90%;
+        margin-left: -4%;
     }
 
     .footer h3 {
@@ -482,6 +500,34 @@
         text-align: center;
         color: #3F2014;
         margin-top: 10px;
+    }
+
+    .project-historia .titulos-principais h2{
+        font-size: 22px;
+        margin-bottom: -15%;
+    }
+
+    .trajetoria .linha{
+        display: none;
+    }
+
+    .trajetoria .coluna1{
+        float: none;
+        width: 90%;
+        margin-left: -4%;
+    }
+
+    .trajetoria .coluna2{
+        float: none;
+        width: 90%;
+        margin-left: -4%;
+    }
+
+    .trajetoria .coluna1 img {
+        width: 100%;
+        height: 100%;
+        margin-left: 25%;
+        margin-top: 20px;
     }
       .project-app .app-text{
         display: none !important;

@@ -1,11 +1,11 @@
-.project-historia{
+.project-historia {
     width: 100%;
     height: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.project-historia .img-luh img{
+.project-historia .img-luh img {
     width: 100%;
     height: 100%;
     margin-right: 5%;
@@ -19,6 +19,7 @@
     border-color: #EED0B3;
     margin-left: 0%;
 }
+
 .historia-luh h1 {
     text-align: center;
     color: #3F2014;
@@ -26,8 +27,9 @@
     font-size: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
+
 .historia-luh h2 {
     text-align: center;
     color: #3F2014;
@@ -54,23 +56,26 @@
     margin-top: 70px;
 }
 
-.trajetoria .coluna1{
+.trajetoria {
+    width: 100%;
+}
+
+.trajetoria .coluna1 {
     height: 100%;
-    width: 42%;
+    width: 40%;
     float: left;
     margin-left: 5%;
     margin-top: 30px;
 }
 
-.trajetoria .coluna1 img{
+.trajetoria .coluna1 img {
     width: 100%;
     height: 100%;
-    text-align: left;
-    margin-left: 25%;
+    margin-left: 40%;
     margin-top: 20px;
 }
 
-.trajetoria h1{
+.trajetoria h1 {
     font-size: 30px;
     color: #502a1a;
     line-height: 100px;
@@ -80,39 +85,39 @@
     margin-top: 20px;
 }
 
-.trajetoria h2{
+.trajetoria h2 {
     font-size: 18px;
     margin-left: 25%;
     opacity: 80%;
 }
 
-.trajetoria .coluna2{ 
-    width: 42%;
+.trajetoria .coluna2 {
     height: 100%;
-    float: right;
-    margin-right: 11%;
-    margin-top: 80px;
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 30px;
+}
+
+.trajetoria .coluna2 img {
+    width: 40%;
+    height: 100%;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.trajetoria .coluna2 h1 {
     text-align: left;
 }
 
-.trajetoria .coluna2 img{
-    width: 50%;
-    height: 100%;
-    margin-left: 25%;
-}
 
-.trajetoria .coluna2 h1{ 
-   text-align: left;
-}
-
-
-.clear{
+.clear {
     clear: both;
 }
 
-.trajetoria .linha{
-    border-left: 2px solid ;
-    height: 150%;
+.trajetoria .linha {
+    border-left: 2px solid;
+    height: 190%;
     opacity: 50%;
     position: absolute;
     left: 50%;
