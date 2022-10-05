@@ -121,12 +121,7 @@
     <div class="titulos-principais">
       <h2>NOSSOS SABORES</h2>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    
 
 
 
@@ -192,85 +187,66 @@
               <div class="swiper-pagination"></div>
     </section>
  -->
-
-    <div class="items">
-      <div class="item active">
-        <img src="./images/Frame 5.png">
-        <p>Bolos</p>
+ <input type="radio" id="s-1" name="slider-control" checked="checked">
+ <input type="radio" id="s-2" name="slider-control">
+ <input type="radio" id="s-3" name="slider-control">
+ <div class="js-slider">
+  <figure class="js-slider_item img-1">
+    <div class="js-slider_img">
+      <img class="c-img-h-full" src="./images/Frame 5.png" alt="">
+     </div>
+    <figcaption class="wo-caption">
+     <h3 class="wo-h3">
+       <div class="c-label">Bolos</div>
+       <br class="view-sm mb-s"></h3>
+      <ul class="wo-credit">
+        <li>Tradicionais</li>
+        <li>Especiais</li>
+        <li>Gourmets</li></ul>
+    </figcaption>
+  </figure>
+   <figure class="js-slider_item img-2">
+     <div class="js-slider_img">
+       <img class="c-img-h-full" src="./images/Frame 6.png" alt="">
       </div>
-      <div class=" item next">
-        <img src="./images/Frame 6.png">
-        <p>Bolos</p>
+     <figcaption class="wo-caption">
+      <h3 class="wo-h3">
+        <div class="c-label">Salgados</div>
+        <br class="view-sm mb-s"></h3>
+       <ul class="wo-credit">
+         <li>Tradicionais</li>
+         <li>Esfihas de carne, queijo ou frango</li>
+         <li>Pasteis e baurus</li></ul>
+     </figcaption>
+   </figure>
+   <figure class="js-slider_item img-3">
+     <div class="js-slider_img">
+       <img class="c-img-h-full" src="./images/Frame 7.png" alt="">
       </div>
-      <div class="item">
-        <img src="./images/Frame 7.png">
-        <p>Bolos</p>
-      </div>
-      <div class="item">
-        <img src="./images/Frame 8.png">
-        <p>Bolos</p>
-      </div>
-      <div class="item prev">
-        <img src="./images/Frame 10.png">
-        <p>Bolos</p>
-      </div>
-      <div class="button-container">
-        <div class="button"><i class="fas fa-angle-left"></i></div>
-        <div class="button"><i class="fas fa-angle-right"></i></div>
-      </div>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-    <script>
-      const slider = document.querySelector(".items");
-      const slides = document.querySelectorAll(".item");
-      const button = document.querySelectorAll(".button");
-
-      let current = 0;
-      let prev = 4;
-      let next = 1;
-
-      for (let i = 0; i < button.length; i++) {
-        button[i].addEventListener("click", () => i == 0 ? gotoPrev() : gotoNext());
-      }
-
-      const gotoPrev = () => current > 0 ? gotoNum(current - 1) : gotoNum(slides.length - 1);
-
-      const gotoNext = () => current < 4 ? gotoNum(current + 1) : gotoNum(0);
-
-      const gotoNum = number => {
-        current = number;
-        prev = current - 1;
-        next = current + 1;
-
-        for (let i = 0; i < slides.length; i++) {
-          slides[i].classList.remove("active");
-          slides[i].classList.remove("prev");
-          slides[i].classList.remove("next");
-        }
-
-        if (next == 5) {
-          next = 0;
-        }
-
-        if (prev == -1) {
-          prev = 4;
-        }
-
-        slides[current].classList.add("active");
-        slides[prev].classList.add("prev");
-        slides[next].classList.add("next");
-      }
-
-    </script>
+     <figcaption class="wo-caption">
+      <h3 class="wo-h3">
+        <div class="c-label">Doces</div>
+        <br class="view-sm mb-s"></h3>
+       <ul class="wo-credit">
+         <li>Tradicionais</li>
+         <li>Gourmets</li>
+         <li>Brownies, tortas, trufas e bem-casados</li></ul>
+     </figcaption>
+   </figure>
+   <div class="js-slider_nav">
+     <label class="js-slider_nav_item s-nav-1 prev" for="s-3"></label>
+     <label class="js-slider_nav_item s-nav-1 next" for="s-2"></label>
+     <label class="js-slider_nav_item s-nav-2 prev" for="s-1"></label>
+     <label class="js-slider_nav_item s-nav-2 next" for="s-3"></label>
+     <label class="js-slider_nav_item s-nav-3 prev" for="s-2"></label>
+     <label class="js-slider_nav_item s-nav-3 next" for="s-1"></label>
+   </div>
+   <div class="js-slider_indicator">
+     <div class="js-slider-indi indi-1"></div>
+     <div class="js-slider-indi indi-2"></div>
+     <div class="js-slider-indi indi-3"></div>
+   </div>
+ </div>
     <!--fim seção sabores-->
 
     <!--inicio da seção destaques-->
