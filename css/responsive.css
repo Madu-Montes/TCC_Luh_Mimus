@@ -1,20 +1,32 @@
-/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
-
-@media (min-width: 1200px) and (max-width: 1342px) {
-    .banner_main{
+@media (min-width: 1342px) and (max-width: 1500px) {
+    .banner_main {
         width: 100%;
-    }  
-    .esc-icons{
+    }
+
+    .esc-icons {
         display: none !important;
     }
 
-    .trajetoria .linha{
+    .trajetoria .linha {
         height: 122%;
     }
-    
+
+    /*nada para alterar aqui por enquanto*/
+}
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .banner_main {
+        width: 100%;
+    }
+
+    .esc-icons {
+        display: none !important;
+    }
+
+    .trajetoria .linha {
+        height: 122%;
+    }
+
     /*nada para alterar aqui por enquanto*/
 }
 
@@ -51,24 +63,32 @@
         height: 80%;
         width: 112%;
     }
-    .trajetoria .linha{
-        height: 132%; 
-    }
-    .esc-icons{
-        display: none !important;
-    }
-    .container_form{
-            max-width: 70%;
-          }
-          .content{
-            padding: 10px 0;
-          }
+    .escolhas .esc-icons {
+        display: none;
+   }
+
+    .trajetoria .linha {
+        height: 132%;
     }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .email-icon{
+    .esc-icons {
         display: none !important;
     }
+
+    .container_form {
+        max-width: 70%;
+    }
+
+    .content {
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .email-icon {
+        display: none !important;
+    }
+
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 23px 8px;
         font-size: 14px;
@@ -77,16 +97,18 @@
     .header-menu {
         height: 60px;
     }
-    .snip1143 li a{
-        background-color: aquamarine;
-        font-size: 11px; /*parte a ser arrumada aqui!!!!!*/
+
+    .snip1143 li a {
+        font-size: 11px;
+        background-color: brown;
+        /*parte a ser arrumada aqui!!!!!*/
     }
 
     .banner_main {
         width: 100%;
     }
 
-    .galery-container .image{
+    .galery-container .image {
         flex: 50%;
     }
 
@@ -110,10 +132,12 @@
         border-radius: 20px;
         align-items: center;
     }
-    .destaques h3{
+
+    .destaques h3 {
         font-size: 20px;
     }
-    .destaques h4{
+
+    .destaques h4 {
         font-size: 16px;
     }
 
@@ -129,19 +153,24 @@
     .escolhas p {
         font-size: 14px;
     }
+    .escolha-text h1{
+        font-size: 20px;
+    }
 
     .escolhas .esc-img {
-        height: 60%;
-        width: 110%;
+        height: 100%;
+        width: 100%;
     }
 
     .escolhas .esc-icons {
         text-align: center;
         align-items: center;
     }
-    .project-historia .img-luh img{
+
+    .project-historia .img-luh img {
         display: none;
     }
+
     .project-historia .historia-luh {
         width: 180%;
         height: 100%;
@@ -151,27 +180,31 @@
         margin-left: -79%;
     }
 
-    .trajetoria h1{
+    .trajetoria h1 {
         font-size: 25px;
     }
-    .trajetoria h1{
+
+    .trajetoria h1 {
         font-size: 27px;
     }
-    .trajetoria h2{
+
+    .trajetoria h2 {
         font-size: 15px;
     }
-    .trajetoria .linha{
+
+    .trajetoria .linha {
         height: 185%;
     }
-    .esc-img{
+
+    .esc-img {
         height: 200%;
     }
 
-    .esc-icons{
+    .esc-icons {
         display: none !important;
     }
-    
-    
+
+
 
 }
 
@@ -179,25 +212,29 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .snip1143 li {
         display: block;
-       
-   }
+    }
+
     .email-icon {
         display: none !important;
     }
-    .logo img{
+
+    .logo img {
         width: 120px;
     }
+
     .d_none1 {
         display: none !important;
     }
-    .search{
+
+    .search {
         margin-top: -60px;
     }
 
     .banner_main {
         width: 100%;
     }
-    .galery-container .image{
+
+    .galery-container .image {
         flex: 50%;
     }
 
@@ -207,7 +244,7 @@
         line-height: 100px;
         font-weight: bold;
         text-align: center;
-       
+
     }
 
     .sabores .sab_box {
@@ -219,11 +256,12 @@
         border-radius: 20px;
         align-items: center;
     }
+
     .destaques .dest_box {
         width: 80%;
         height: 90%;
         margin-left: 9%;
-   }
+    }
 
 
     .escolhas h1 {
@@ -236,20 +274,21 @@
 
     .escolhas .esc-img {
         display: none !important;
-}
+    }
 
     .escolhas .esc-icons {
         text-align: center;
         align-items: center;
     }
 
-    .project-historia .img-luh img{
+    .project-historia .img-luh img {
         width: 300px;
         margin-left: 22%;
         margin-right: 5%;
-        
+
         margin-bottom: 15px;
     }
+
     .project-historia .historia-luh {
         width: 100%;
         height: 100%;
@@ -258,25 +297,27 @@
         border-color: #EED0B3;
     }
 
-    .trajetoria h1{
+    .trajetoria h1 {
         font-size: 16px;
         margin-top: 2%;
         margin-bottom: -10%;
     }
-    .trajetoria h2{
+
+    .trajetoria h2 {
         font-size: 15px;
     }
-    .trajetoria .linha{
+
+    .trajetoria .linha {
         display: none;
     }
 
-    .trajetoria .coluna1{
+    .trajetoria .coluna1 {
         float: none;
         width: 90%;
         margin-left: -4%;
     }
 
-    .trajetoria .coluna2{
+    .trajetoria .coluna2 {
         float: none;
         width: 90%;
         margin-left: -4%;
@@ -336,11 +377,13 @@
 @media (min-width: 320px) and (max-width: 575px) {
     .snip1143 li {
         display: block;
-       
-   }
-    .email-icon{
+
+    }
+
+    .email-icon {
         display: none !important;
     }
+
     .d_none1 {
         display: none !important;
     }
@@ -356,13 +399,14 @@
     .banner_main {
         width: 100%;
     }
+
     .destaques .dest_box {
         width: 80%;
         height: 90%;
         margin-left: 9%;
-   }
+    }
 
-    .galery-container .image{
+    .galery-container .image {
         flex: 33.33%;
     }
 
@@ -374,7 +418,8 @@
         text-align: center;
         margin-bottom: 15px;
     }
-    .project .titulos-principais img{
+
+    .project .titulos-principais img {
         width: 80px;
 
     }
@@ -398,14 +443,14 @@
     }
 
     .escolhas .esc-img {
-            display: none !important;
+        display: none !important;
     }
 
     .escolhas .esc-icons {
         text-align: center;
         align-items: center;
     }
-    
+
     .project-historia .historia-luh {
         width: 100%;
         height: 100%;
@@ -414,18 +459,21 @@
         border-color: #EED0B3;
         margin-top: 15px;
     }
-    .trajetoria h1{
+
+    .trajetoria h1 {
         font-size: 18px;
     }
-    .trajetoria h2{
+
+    .trajetoria h2 {
         font-size: 14px;
     }
+
     .container_form {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-      }
-    
+    }
+
 
     .footer h3 {
         padding-top: 20px;
@@ -439,7 +487,8 @@
         width: 100%;
         margin-top: -68px;
     }
-    .header-menu{
+
+    .header-menu {
         text-align: center;
     }
 
@@ -479,13 +528,14 @@
         height: 44px;
         margin-top: -50px;
     }
-    .project-historia .img-luh{
+
+    .project-historia .img-luh {
         height: 100%;
         width: 100%;
         margin-left: 0%;
         margin-right: 10%;
     }
-    
+
     .project-historia .historia-luh {
         width: 90%;
         height: 100%;
@@ -496,6 +546,7 @@
         margin-left: 5%;
         margin-right: 10%;
     }
+
     .historia-luh h1 {
         text-align: center;
         color: #3F2014;
@@ -503,6 +554,7 @@
         font-size: 20px;
         margin-top: 10px;
     }
+
     .historia-luh h2 {
         font-size: 16px;
         text-align: center;
@@ -510,22 +562,22 @@
         margin-top: 10px;
     }
 
-    .project-historia .titulos-principais h2{
+    .project-historia .titulos-principais h2 {
         font-size: 22px;
         margin-bottom: -15%;
     }
 
-    .trajetoria .linha{
+    .trajetoria .linha {
         display: none;
     }
 
-    .trajetoria .coluna1{
+    .trajetoria .coluna1 {
         float: none;
         width: 90%;
         margin-left: -4%;
     }
 
-    .trajetoria .coluna2{
+    .trajetoria .coluna2 {
         float: none;
         width: 90%;
         margin-left: -4%;
@@ -537,14 +589,14 @@
         margin-left: 25%;
         margin-top: 20px;
     }
-      .project-app .app-text{
+
+    .project-app .app-text {
         display: none !important;
     }
-    
-    .project-app .app-img{
+
+    .project-app .app-img {
         margin-right: 5px;
         width: 100%;
     }
-    
-}
 
+}
