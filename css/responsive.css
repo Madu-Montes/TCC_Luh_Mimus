@@ -177,6 +177,10 @@
 
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .snip1143 li {
+        display: block;
+       
+   }
     .email-icon {
         display: none !important;
     }
@@ -330,6 +334,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
+    .snip1143 li {
+        display: block;
+       
+   }
     .email-icon{
         display: none !important;
     }
