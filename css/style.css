@@ -574,19 +574,18 @@ figcaption {
 
 .setas {
      position: absolute;
-     left: 0;
      top: 50%;
      width: 100%;
      transform: translate3d(0, -50%, 0);
 }
 
 .setas_item.prev {
-     left: 0;
+     left: 10%;
      transform: rotate(180deg);
 }
 
 .setas_item.next {
-     right: 0;
+     right: 10%;
 }
 
 .setas_item {

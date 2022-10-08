@@ -63,9 +63,10 @@
         height: 80%;
         width: 112%;
     }
+
     .escolhas .esc-icons {
         display: none;
-   }
+    }
 
     .trajetoria .linha {
         height: 132%;
@@ -153,7 +154,8 @@
     .escolhas p {
         font-size: 14px;
     }
-    .escolha-text h1{
+
+    .escolha-text h1 {
         font-size: 20px;
     }
 
@@ -432,6 +434,17 @@
         width: 70%;
         border-radius: 20px;
         align-items: center;
+    }
+
+    .setas_item.prev {
+        width: 20%;
+        left: 0;
+        transform: rotate(180deg);
+    }
+
+    .setas_item.next {
+        width: 20%;
+        right: 0;
     }
 
     .escolhas h1 {
