@@ -10,6 +10,9 @@
     .trajetoria .linha {
         height: 122%;
     }
+    .sabores{
+        margin-bottom: -20%;
+   }   
 
     /*nada para alterar aqui por enquanto*/
 }
@@ -26,6 +29,9 @@
     .trajetoria .linha {
         height: 122%;
     }
+    .sabores{
+        margin-bottom: -20%;
+   } 
 
     /*nada para alterar aqui por enquanto*/
 }
@@ -83,6 +89,9 @@
     .content {
         padding: 10px 0;
     }
+    .sabores{
+        margin-bottom: -20%;
+   } 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -123,7 +132,6 @@
     }
 
     .sabores img {
-        width: 100px;
         margin-bottom: 0px;
     }
 
@@ -374,6 +382,9 @@
         margin-top: -80px;
         margin-left: 370%;
     }
+    .sabores{
+        margin-bottom: 20%;
+   } 
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
@@ -435,6 +446,10 @@
         border-radius: 20px;
         align-items: center;
     }
+
+    .sabores{
+        margin-bottom: 30%;
+   } 
 
     .setas_item.prev {
         width: 20%;
