@@ -480,9 +480,6 @@ ul.right_icon li img {
 }
 
 /*inicio seção sabores*/
-.sabores{
-     margin-bottom: 5%;
-}
 
 li {
      list-style: none;
@@ -577,18 +574,19 @@ figcaption {
 
 .setas {
      position: absolute;
+     left: 0;
      top: 50%;
      width: 100%;
      transform: translate3d(0, -50%, 0);
 }
 
 .setas_item.prev {
-     left: 10%;
+     left: 0;
      transform: rotate(180deg);
 }
 
 .setas_item.next {
-     right: 10%;
+     right: 0;
 }
 
 .setas_item {
