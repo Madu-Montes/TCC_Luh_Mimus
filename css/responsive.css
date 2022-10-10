@@ -8,7 +8,7 @@
     }
 
     .trajetoria .linha {
-        height: 122%;
+        height: 150% !important;
     }
     .sabores{
         margin-bottom: -20%;
@@ -37,7 +37,7 @@
     }
 
     .trajetoria .linha {
-        height: 122%;
+        height: 160% !important;
     }
     .sabores{
         margin-bottom: -20%;
@@ -102,7 +102,7 @@
     }
 
     .trajetoria .linha {
-        height: 132%;
+        height: 177% !important;
     }
 
     .esc-icons {
@@ -243,7 +243,7 @@
     }
 
     .trajetoria .linha {
-        height: 185%;
+        height: 1360px !important;
     }
 
     .esc-img {
