@@ -1,3 +1,8 @@
+.cardapio h6{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+
 .mb-3{
 
     color: #3F2014;
@@ -7,15 +12,21 @@
 
 }
 
-.main_title{
-   margin-top: 15%;
+.title{
+   margin-top: 5%;
     text-align: center;
     
 }
 
+.cardapio{
+    width: 90%;
+    padding: 50px 0;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
-
-.popular_courses .owl-item {
+.cardapio .owl-item {
     opacity: 0;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -24,10 +35,10 @@
     padding: 0px 10px;
     padding-bottom: 30px;
 }
-.popular_courses .owl-item.active {
+.cardapio .owl-item.active {
     opacity: 1;
 }
-.popular_courses .owl-nav {
+.cardapio .owl-nav {
     display: flex !important;
     justify-content: space-between;
     position: absolute;
@@ -37,8 +48,8 @@
     left: -11%;
 }
 
-.popular_courses .owl-nav .owl-prev img,
-.popular_courses .owl-nav .owl-next img {
+.cardapio .owl-nav .owl-prev img,
+.cardapio .owl-nav .owl-next img {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -49,8 +60,8 @@
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
-.popular_courses .owl-nav .owl-prev img:hover,
-.popular_courses .owl-nav .owl-next img:hover {
+.cardapio .owl-nav .owl-prev img:hover,
+.cardapio .owl-nav .owl-next img:hover {
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     -ms-filter: grayscale(0%);
@@ -163,4 +174,3 @@
 .single_course:hover h4 a {
     color: #E2AF7C;
 }
-
