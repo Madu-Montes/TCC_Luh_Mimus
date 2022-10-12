@@ -3,10 +3,6 @@
     font-size: 10px;
 }
 
-.cardapio .doces {
-    background-color: rgb(174, 235, 212);
-}
-
 .mb-3 {
     color: #3F2014;
     font-weight: bold;
@@ -25,6 +21,7 @@
     margin-top: 30px;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #ECE6DE;
 }
 
 .cardapio .owl-item {
