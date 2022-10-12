@@ -4,7 +4,9 @@
     }
 
     .esc-icons {
-        display: none !important;
+        display: inline-flex !important;
+        
+
     }
 
     .trajetoria .linha {
@@ -23,6 +25,8 @@
     
     
 }
+
+
 
     /*nada para alterar aqui por enquanto*/
 }
