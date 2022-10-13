@@ -1,90 +1,121 @@
 .photo-gallery {
-    color:#313437;
-    background-color:#fff;
-  }
-  
-  .photo-gallery p {
-    color:#7d8285;
-  }
-  
-  .photo-gallery h2 {
-    font-weight:bold;
-    margin-bottom:40px;
-    padding-top:40px;
-    color:inherit;
-  }
-  
-  @media (max-width:767px) {
-    .photo-gallery h2 {
-      margin-bottom:25px;
-      padding-top:25px;
-      font-size:24px;
-    }
-  }
-  
-  .photo-gallery .intro {
-    font-size:16px;
-    max-width:500px;
-    margin:0 auto 40px;
-  }
-  
-  .photo-gallery .intro p {
-    margin-bottom:0;
-  }
-  
-  .photo-gallery .photos {
-    padding-bottom:20px;
-    width: 85%;
-    margin-left: 8%;
-    
-  }
+  color: #313437;
+  background-color: #fff;
+}
 
-  
-  
-  
-  
-  .photo-gallery .item {
-    padding-bottom:30px;
-  }
-  
+.photo-gallery p {
+  color: #7d8285;
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+.photo-gallery .intro {
+  font-size: 16px;
+  width: 50%;
+  margin: 0 auto 0px;
+  margin-top: 3%;
+  padding: 2px;
+}
+
+.photo-gallery nav {
+  display: flex;
+  height: 30%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0 70px;
+  flex-wrap: wrap;
+}
+
+.photo-gallery nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+
+.photo-gallery nav ul li a {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 2px;
+  max-width: 120px;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  border-radius: 30%;
+  border: 1px solid rgba(0, 0, 0, 0.418);
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.photo-gallery nav ul li a:hover {
+  background-color: #FACBA4;
+  color: black;
+}
+
+.photo-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+  width: 85%;
+  margin-left: 8%;
+
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
+}
+
 section {
-
-    min-height: 20vh;
-    padding-top: 3rem;
-}  
-
-#bolos{
-
-    text-align: center;
-    align-items: center;
-    font-size: 30px;
+  min-height: 20vh;
+  padding-top: 3rem;
 }
 
-#doces{
-
-    text-align: center;
-    align-items: center;
-    font-size: 30px;
+#bolos {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
 }
 
-#salgados{
+#doces {
 
-    text-align: center;
-    align-items: center;
-    font-size: 30px;
-}
-.photo-gallery nav ul{
-
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    height: 2rem;
-    width: 100%;
-    
-    align-items: center;
-
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
 }
 
-html{
-    scroll-behavior: smooth;
+#salgados {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+#personalizados {
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.photo-gallery nav ul {
+
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  height: 2rem;
+  width: 100%;
+
+  align-items: center;
+
+}
+
+html {
+  scroll-behavior: smooth;
 }
