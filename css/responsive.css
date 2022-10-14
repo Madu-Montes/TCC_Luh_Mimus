@@ -455,6 +455,10 @@
         margin-top: -68px;
     }
 
+    .header-menu {
+        text-align: center;
+    }
+
     .navigation .navbar-collapse {
         background: #FFE2CB;
         margin-top: 68px;
