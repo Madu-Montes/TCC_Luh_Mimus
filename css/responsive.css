@@ -7,18 +7,19 @@
         margin-bottom: -20%;
     }
 
-    .esc-icons{
+    .esc-icons {
         display: none !important;
+    }
+
+    .owl-stage-outer {
+        margin-left: 5%;
+        align-items: center;
     }
 
     .trajetoria .linha {
         height: 150% !important;
     }
 
-    .owl-stage-outer {
-        margin-left: 2%;
-        align-items: center;
-    }
 
 }
 
@@ -35,17 +36,15 @@
         display: none !important;
     }
 
-    .trajetoria .linha {
-        height: 160% !important;
-    }
-
     .owl-stage-outer {
-        margin-left: 6%;
+        margin-left: 2%;
         align-items: center;
-        display: inline;
-
-
     }
+
+    .trajetoria .linha {
+        height: 120% !important;
+    }
+
 
     /*nada para alterar aqui por enquanto*/
 }
@@ -57,11 +56,8 @@
     }
 
     .owl-stage-outer {
-
         margin-left: 12%;
-
     }
-
 
     .header_topo {
         padding-top: 10px;
@@ -96,7 +92,7 @@
     }
 
     .trajetoria .linha {
-        height: 177% !important;
+        height: 135% !important;
     }
 
     .esc-icons {
@@ -140,22 +136,6 @@
     .banner_main {
         width: 100%;
     }
-
-    .galery-container .image {
-        flex: 50%;
-    }
-
-    .owl-stage-outer {
-
-        margin-left: 25%;
-
-
-    }
-
-    #titulo2 {
-        margin-left: 40px !important;
-    }
-
 
     .project .titulos-principais h2 {
         font-size: 32px;
@@ -212,6 +192,14 @@
         align-items: center;
     }
 
+    .galery-container .image {
+        flex: 50%;
+    }
+
+    .owl-stage-outer {
+        margin-left: 25%;
+    }
+
     .project-historia .img-luh img {
         display: none;
     }
@@ -249,12 +237,12 @@
         display: none !important;
     }
 
-
-
 }
 
-
 @media (min-width: 576px) and (max-width: 767px) {
+    .banner_main {
+        width: 100%;
+    }
     .snip1143 li {
         display: block;
     }
@@ -273,26 +261,6 @@
 
     .search {
         margin-top: -60px;
-    }
-
-    .owl-stage-outer {
-
-
-        margin-left: 18%;
-    }
-
-
-    #titulo2 {
-        margin-left: 40px !important;
-    }
-
-
-    .banner_main {
-        width: 100%;
-    }
-
-    .galery-container .image {
-        flex: 50%;
     }
 
     .project .titulos-principais h2 {
@@ -320,7 +288,6 @@
         margin-left: 9%;
     }
 
-
     .escolhas h1 {
         font-size: 26px;
     }
@@ -336,6 +303,20 @@
     .escolhas .esc-icons {
         text-align: center;
         align-items: center;
+    }
+
+    .owl-stage-outer {
+        margin-left: 18%;
+    }
+
+    .galery-container .image {
+        flex: 50%;
+    }
+
+    .photo-gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
     }
 
     .project-historia .img-luh img {
@@ -433,20 +414,11 @@
     .sabores {
         margin-bottom: 20%;
     }
-
-    @media (max-width:767px) {
-        .photo-gallery h2 {
-            margin-bottom: 25px;
-            padding-top: 25px;
-            font-size: 24px;
-        }
-    }
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
     .snip1143 li {
         display: block;
-
     }
 
     .email-icon {
@@ -458,16 +430,13 @@
     }
 
     .owl-stage-outer {
-
-        margin-left: 6%;
-
+        margin-left: -1%;
         align-items: center;
     }
 
-    #titulo2 {
-        margin-left: 40px !important;
+    .single_course{
+        width: 80%;
     }
-
 
     .logo {
         float: center;

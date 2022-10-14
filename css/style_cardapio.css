@@ -120,6 +120,7 @@
 }
 
 .single_course .course_content {
+    height: 300px;
     padding: 30px 26px;
     background: #f9f9ff;
     position: relative;
