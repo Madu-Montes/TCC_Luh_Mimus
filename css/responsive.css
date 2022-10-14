@@ -429,21 +429,14 @@
         display: none !important;
     }
 
-    .owl-stage-outer {
-        margin-left: 10%;
-        align-items: center;
-    }
-
-    .single_course{
-        width: 80%;
-    }
-
     .logo {
         float: center;
         border: inherit;
         margin-top: 0px !important;
         width: 130px;
-        margin-left: 27%;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: aquamarine;
     }
 
     .banner_main {
@@ -514,6 +507,15 @@
     .escolhas .esc-icons {
         text-align: center;
         align-items: center;
+    }
+
+    .owl-stage-outer {
+        margin-left: 10%;
+        align-items: center;
+    }
+
+    .single_course{
+        width: 80%;
     }
 
     .project-historia .historia-luh {
