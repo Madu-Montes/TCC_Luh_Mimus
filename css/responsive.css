@@ -44,25 +44,18 @@
     .trajetoria .linha {
         height: 120% !important;
     }
-
-
-    /*nada para alterar aqui por enquanto*/
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 30px 15px;
-        font-size: 15px;
-    }
-
-    .owl-stage-outer {
-        margin-left: 12%;
-    }
-
     .header_topo {
         padding-top: 10px;
         height: 145px;
         width: 100%;
+    }
+
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 30px 15px;
+        font-size: 15px;
     }
 
     .banner_main {
@@ -76,6 +69,10 @@
         font-weight: bold;
         text-align: center;
         margin-bottom: 15px;
+    }
+
+    .sabores {
+        margin-bottom: -20%;
     }
 
     .escolhas h1 {
@@ -107,34 +104,28 @@
         padding: 10px 0;
     }
 
-    .sabores {
-        margin-bottom: -20%;
+    .owl-stage-outer {
+        margin-left: 12%;
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .email-icon {
-        display: none !important;
-    }
-
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 23px 8px;
-        font-size: 14px;
-    }
 
     .header-menu {
         height: 60px;
     }
-
+    .email-icon {
+        display: none !important;
+    }
+    .banner_main {
+        width: 100%;
+    }
 
     .snip1143 li a {
         font-size: 11px;
         background-color: brown;
         /*parte a ser arrumada aqui!!!!!*/
-    }
-
-    .banner_main {
-        width: 100%;
     }
 
     .project .titulos-principais h2 {
@@ -191,13 +182,20 @@
         text-align: center;
         align-items: center;
     }
+    .esc-img {
+        height: 200%;
+    }
 
-    .galery-container .image {
-        flex: 50%;
+    .esc-icons {
+        display: none !important;
     }
 
     .owl-stage-outer {
         margin-left: 25%;
+    }
+
+    .galery-container .image {
+        flex: 50%;
     }
 
     .project-historia .img-luh img {
@@ -229,13 +227,11 @@
         height: 1360px !important;
     }
 
-    .esc-img {
-        height: 200%;
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 23px 8px;
+        font-size: 14px;
     }
 
-    .esc-icons {
-        display: none !important;
-    }
 
 }
 
@@ -243,6 +239,7 @@
     .banner_main {
         width: 100%;
     }
+
     .snip1143 li {
         display: block;
     }
@@ -417,6 +414,15 @@
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
+
+    .logo img {
+        width: 110px;
+    }
+
+    .header-menu {
+        text-align: center;
+    }
+
     .snip1143 li {
         display: block;
     }
@@ -429,116 +435,9 @@
         display: none !important;
     }
 
-    .logo img{
-        width: 110px;
-    }
 
     .banner_main {
         width: 100%;
-    }
-
-    .destaques .dest_box {
-        width: 80%;
-        height: 90%;
-        margin-left: 9%;
-    }
-
-    .galery-container .image {
-        flex: 33.33%;
-    }
-
-    .project .titulos-principais h2 {
-        font-size: 24px;
-        color: #3F2014;
-        line-height: 100px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    .project .titulos-principais img {
-        width: 80px;
-
-    }
-
-    .sabores .sab_box {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
-        margin-top: 15px;
-        margin-bottom: 20px;
-        width: 70%;
-        border-radius: 20px;
-        align-items: center;
-    }
-
-    .sabores {
-        margin-bottom: 30%;
-    }
-
-    .setas_item.prev {
-        width: 20%;
-        left: 0;
-        transform: rotate(180deg);
-    }
-
-    .setas_item.next {
-        width: 20%;
-        right: 0;
-    }
-
-    .escolhas h1 {
-        font-size: 26px;
-    }
-
-    .escolhas p {
-        font-size: 14px;
-    }
-
-    .escolhas .esc-img {
-        display: none !important;
-    }
-
-    .escolhas .esc-icons {
-        text-align: center;
-        align-items: center;
-    }
-
-    .owl-stage-outer {
-        margin-left: 10%;
-        align-items: center;
-    }
-
-    .single_course{
-        width: 80%;
-    }
-
-    .project-historia .historia-luh {
-        width: 100%;
-        height: 100%;
-        border-radius: 10px;
-        border: 2px solid;
-        border-color: #EED0B3;
-        margin-top: 15px;
-    }
-
-    .trajetoria h1 {
-        font-size: 18px;
-    }
-
-    .trajetoria h2 {
-        font-size: 14px;
-    }
-
-    .container_form {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-
-    .footer h3 {
-        padding-top: 20px;
-        font-size: 20px;
     }
 
     .navigation.navbar {
@@ -547,10 +446,6 @@
         padding: 0;
         width: 100%;
         margin-top: -68px;
-    }
-
-    .header-menu {
-        text-align: center;
     }
 
     .navigation .navbar-collapse {
@@ -588,6 +483,97 @@
         width: 50px;
         height: 44px;
         margin-top: -50px;
+    }
+
+
+    .sabores .sab_box {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 16px rgba(13, 3, 3, 7%);
+        margin-top: 15px;
+        margin-bottom: 20px;
+        width: 70%;
+        border-radius: 20px;
+        align-items: center;
+    }
+
+    .sabores {
+        margin-bottom: 30%;
+    }
+    .destaques .dest_box {
+        width: 80%;
+        height: 90%;
+        margin-left: 9%;
+    }
+
+    .project .titulos-principais h2 {
+        font-size: 24px;
+        color: #3F2014;
+        line-height: 100px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .project .titulos-principais img {
+        width: 80px;
+
+    }
+
+    .setas_item.prev {
+        width: 20%;
+        left: 0;
+    }
+
+    .setas_item.next {
+        width: 20%;
+        right: 0;
+    }
+
+    .escolhas h1 {
+        font-size: 26px;
+    }
+
+    .escolhas p {
+        font-size: 14px;
+    }
+
+    .escolhas .esc-img {
+        display: none !important;
+    }
+
+    .escolhas .esc-icons {
+        text-align: center;
+        align-items: center;
+    }
+
+    .galery-container .image {
+        flex: 33.33%;
+    }
+
+    .owl-stage-outer {
+        margin-left: 10%;
+        align-items: center;
+    }
+
+    .single_course {
+        width: 80%;
+    }
+
+    .project-historia .historia-luh {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        border: 2px solid;
+        border-color: #EED0B3;
+        margin-top: 15px;
+    }
+
+    .trajetoria h1 {
+        font-size: 18px;
+    }
+
+    .trajetoria h2 {
+        font-size: 14px;
     }
 
     .project-historia .img-luh {
@@ -651,6 +637,12 @@
         margin-top: 20px;
     }
 
+    .container_form {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .project-app .app-text {
         display: none !important;
     }
@@ -658,6 +650,10 @@
     .project-app .app-img {
         margin-right: 5px;
         width: 100%;
+    }
+    .footer h3 {
+        padding-top: 20px;
+        font-size: 20px;
     }
 
 }
