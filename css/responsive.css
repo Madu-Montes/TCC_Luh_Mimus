@@ -429,14 +429,8 @@
         display: none !important;
     }
 
-    .logo {
-        float: center;
-        border: inherit;
-        margin-top: 0px !important;
-        width: 130px;
-        margin-left: 25%;
-        margin-right: 25%;
-        background-color: aquamarine;
+    .logo img{
+        width: 110px;
     }
 
     .banner_main {
