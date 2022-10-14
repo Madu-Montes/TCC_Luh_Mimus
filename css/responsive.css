@@ -279,6 +279,10 @@
         align-items: center;
     }
 
+    .sabores {
+        margin-bottom: 20%;
+    }
+
     .destaques .dest_box {
         width: 80%;
         height: 90%;
@@ -368,6 +372,7 @@
         padding: 0;
         width: 100%;
         margin-top: -68px;
+
     }
 
     .navigation .navbar-collapse {
@@ -408,9 +413,7 @@
         margin-left: 370%;
     }
 
-    .sabores {
-        margin-bottom: 20%;
-    }
+    
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
@@ -421,6 +424,10 @@
 
     .header-menu {
         text-align: center;
+    }
+
+    .header_topo{
+        height: 50%;
     }
 
     .snip1143 li {

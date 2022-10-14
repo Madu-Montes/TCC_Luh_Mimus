@@ -42,7 +42,8 @@
 
 
 * {
-     box-sizing: border-box !important;
+     margin: 0px 0px;
+     padding: 0;
 }
 
 html {
@@ -50,111 +51,19 @@ html {
 }
 
 body {
-     color: #666666;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
-     line-height: 1.80857;
      font-weight: normal;
      height: 100%;
      overflow-x: hidden
 }
 
-a {
-     color: #1f1f1f;
-     text-decoration: none !important;
-     outline: none !important;
-     -webkit-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-     -ms-transition: all .3s ease-in-out;
-     -o-transition: all .3s ease-in-out;
-     transition: all .3s ease-in-out;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-     letter-spacing: 0;
-     font-weight: normal;
-     position: relative;
-     padding: 0 0 10px 0;
-     font-weight: normal;
-     line-height: normal;
-     color: #111111;
-     margin: 0
-}
 
-h1 {
-     font-size: 24px;
-}
 
-h2 {
-     font-size: 18px;
-}
 
-h3 {
-     font-size: 18px;
-}
 
-h4 {
-     font-size: 16px
-}
 
-h5 {
-     font-size: 14px
-}
-
-h6 {
-     font-size: 13px
-}
-
-*,
-*::after,
-*::before {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-     color: #212121;
-     text-decoration: none !important;
-     opacity: 1
-}
-
-button:focus {
-     outline: none;
-}
-
-ul,
-li,
-ol {
-     margin: 0px;
-     padding: 0px;
-     list-style: none;
-}
-
-p {
-     margin: 0px;
-     font-weight: 500;
-     font-size: 15px;
-     line-height: 24px;
-}
-
-a {
-     color: #222222;
-     text-decoration: none;
-     outline: none !important;
-}
-
-a,
 .btn {
      text-decoration: none !important;
      outline: none !important;
@@ -170,17 +79,7 @@ img {
      height: auto;
 }
 
-:focus {
-     outline: 0;
-}
-
-.btn-custom {
-     margin-top: 30px;
-     background-color: transparent !important;
-     border: 2px solid #ddd;
-     padding: 22px 40px;
-     font-size: 16px;
-}
+/*acho que pode apagar isso aqui*/
 
 .lead {
      font-size: 18px;
@@ -208,6 +107,8 @@ blockquote {
      padding: 30px;
 }
 
+/*acho que pode apagar isso aqui*/
+
 button {
      border: 0;
      margin: 0;
@@ -226,30 +127,27 @@ button {
      margin: 0;
      padding: 0;
 }
+/*até aqui*/
 
-
-/**-- heading section --**/
-
-
-/*---------------------------- preloader area ----------------------------*/
-
-
-
-/*-- header area --*/
-
+/*topo e menu*/
 .header {
      width: 100%;
-     background: #fff;
 }
-
 
 .header_topo {
-     padding: 10px 0;
-     height: 135px;
+     height: 125px;
 }
 
-.email-icon {
-     margin-left: 22%;
+.d_flex {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+ .email-icon li{
+     color: #000;
+     margin-left: 11%;
+     margin-top: 5%;
 }
 
 .email-icon li a:hover {
@@ -257,29 +155,9 @@ button {
      text-decoration: none;
 }
 
-.logo {
+.logo{
      text-align: center;
      display: block;
-}
-
-ul.conta_icon li a {
-     color: #3F2014;
-     font-size: 13px;
-}
-
-ul.conta_icon li a:hover {
-     color: #FACBA4;
-     text-decoration: none;
-}
-
-ul.right_icon {
-     display: flex;
-     justify-content: flex-end;
-     flex-wrap: wrap;
-}
-
-ul.right_icon li img {
-     margin-right: 30px;
 }
 
 .order {
@@ -294,6 +172,7 @@ ul.right_icon li img {
      display: block;
      text-align: center;
      border-radius: 20px;
+     
 }
 
 .order img {
@@ -302,10 +181,9 @@ ul.right_icon li img {
 
 .order:hover {
      background-color: #FACBA4;
+     text-decoration: none;
 }
 
-
-/*--   navigation--*/
 
 .snip1143 * {
      box-sizing: border-box;
@@ -374,38 +252,6 @@ ul.right_icon li img {
      width: 100%;
 }
 
-/*
-
-.navigation.navbar {
-     float: left;
-     padding: 0;
-}
-
-.navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 30px 24px;
-     color: #3F2014;
-     font-size: 17px;
-     line-height: 20px;
-     font-weight: 400;
-     text-transform: uppercase;
-}
-
-.navigation.navbar-dark .navbar-nav .nav-link:focus,
-.navigation.navbar-dark .navbar-nav .nav-link:hover {
-     background-color: #FACBA4;
-}
-
-.navigation.navbar-dark .navbar-nav .active>.nav-link,
-.navigation.navbar-dark .navbar-nav .nav-link.active,
-.navigation.navbar-dark .navbar-nav .nav-link.show,
-.navigation.navbar-dark .navbar-nav .show>.nav-link {
-     background-color: #FACBA4;
-}
-
-.navbar-expand-md .navbar-nav {
-     padding-right: 10px;
-} */
-
 .search {
      padding: 9px 0;
      text-align: right;
@@ -431,30 +277,10 @@ ul.right_icon li img {
      color: #b7b7b7;
 }
 
-
-/*-- marker-end sidebar  navigation--*/
-
-
-/** banner section **/
-
-
-/** end banner section **/
-
-/*relacionado ao menu topo*/
-.d_flex {
-     display: flex;
-     align-items: center;
-     flex-wrap: wrap;
-}
-
-/*relacionado ao menu topo*/
+/*-- fim do topo e menu--*/
 
 
 /** project section **/
-
-.project #logoitem {
-     margin-top: 15px;
-}
 
 .project {
      background-size: 100% 100%;
@@ -639,113 +465,6 @@ figcaption {
      transform: translate3d(-50%, -50%, 0) scale(2.5);
 }
 
-.items {
-     position: absolute;
-     top: 170%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     user-select: none;
-     margin-top: 16%;
-}
-
-
-.items .item {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     width: 300px;
-     height: 300px;
-     border-radius: 50%;
-     overflow: hidden;
-     transition: all 300ms ease-in-out;
-     z-index: -1;
-     opacity: 0;
-}
-
-.item img {
-     width: 700px;
-     height: 100%;
-     object-fit: cover;
-}
-
-.itens p {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     font-size: 34px;
-     color: #502a1a;
-     line-height: 100px;
-     font-weight: bold;
-     text-align: center;
-     margin-top: -20px;
-     margin-bottom: 15px;
-}
-
-.item.active {
-     opacity: 1;
-     z-index: 99;
-     box-shadow: 0px 0px 105px -35px rgba(0, 0, 0, 0.75);
-}
-
-.item.prev {
-     z-index: 2;
-     opacity: 0.25;
-     transform: translate(-125%, -50%);
-}
-
-.item.next {
-     z-index: 2;
-     opacity: 0.25;
-     transform: translate(25%, -50%);
-}
-
-.items .button-container {
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     width: 275px;
-     z-index: 100;
-}
-
-.button-container .button {
-     color: #fff;
-     font-size: 32px;
-     cursor: pointer;
-     position: relative;
-     opacity: 0.75;
-     transition: all 300ms ease-in-out;
-}
-
-.button-container .button:hover {
-     opacity: 1;
-}
-
-.button-container .button:before {
-     content: "";
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%, -50%);
-     width: 50px;
-     height: 50px;
-     background-color: rgba(0, 0, 0, 1);
-     border-radius: 50%;
-     z-index: -99;
-}
-
-.button-container .button:nth-child(1) {
-     float: left;
-}
-
-.button-container .button:nth-child(2) {
-     float: right;
-}
-
-
-
-
 /*fim da seção sabores*/
 
 /*inicio da seção destaques*/
@@ -897,10 +616,6 @@ figcaption {
 
 /** footer **/
 
-/** end footer **/
-
-
-/** inner page css **/
 .footer {
      background-color: #ECE6DE;
      padding-top: 40px;
@@ -950,11 +665,11 @@ figcaption {
      color: #FACBA4;
 }
 
+/*footer fim*/
+
 #logorodape {
      width: 200px;
 }
-
-/** end contact section **/
 
 #link-topo {
      padding: 10px;
