@@ -64,31 +64,11 @@
 section {
   min-height: 20vh;
   padding-top: 3rem;
-}
-
-#bolos {
+  font-size: 30px;
+  color: #3F2014;
+  font-weight: bold;
   text-align: center;
   align-items: center;
-  font-size: 30px;
-}
-
-#doces {
-
-  text-align: center;
-  align-items: center;
-  font-size: 30px;
-}
-
-#salgados {
-  text-align: center;
-  align-items: center;
-  font-size: 30px;
-}
-
-#personalizados {
-  text-align: center;
-  align-items: center;
-  font-size: 30px;
 }
 
 .photo-gallery nav ul {
@@ -98,7 +78,6 @@ section {
   gap: 2rem;
   height: 2rem;
   width: 100%;
-
   align-items: center;
 
 }
