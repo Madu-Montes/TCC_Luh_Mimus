@@ -95,8 +95,6 @@
   </header>
   <!-- end header inner -->
 
-
-
   <div class="topo-galeria">
     <i><img src="../images/ban-galeria.png" width="100%"></i>
     <!--fundo-->
@@ -105,7 +103,9 @@
   <div class="photo-gallery">
     <div class="container8">
       <div class="intro">
-        <nav>
+        <label for="foi">
+          <nav onclick="muda()" 
+          id="menu">
           <ul>
             <li><a href="#bolos">Bolos</a></li>
             <li><a href="#doces">Doces</a></li>
@@ -113,6 +113,8 @@
             <li><a href="#personalizados">Personalizados</a></li>
           </ul>
         </nav>
+      </nav>
+    </label>
       </div>
       <section id="bolos">Bolos</section>
       <div class="row photos">
@@ -268,6 +270,29 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+      <script>
+      	
+      	function muda(){
+      		
+var foi = document.getElementById('foi');
+
+var menu = document.getElementById('menu');
+
+var t1 = document.getElementById('t1');
+	
+	if(foi.checked == false){
+		menu.style.transform = 'translateX(-180px)'
+	 menu.style.transition = '1.5s'
+	 t1.innerText = '<- Clique no menu para arrastar'
+	}
+	else{
+		menu.style.transform = 'translateX(0px)'
+		menu.style.transition = '1.5s'
+		t1.innerText = 'Clique no menu para arrastar ->'
+	}
+	}  	
+      </script>
 
 </body>
 
